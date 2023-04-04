@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{font-family: Arial, Helvetica, sans-serif;}
+
+body{
+    background-color: aqua;
+}
+
+main{
+    width:700px;
+    background-color: rgb(145, 145, 26);
+    border-radius: 20px;
+    margin: auto;
+    padding: 22px;
+    box-shadow: 15px 15px 15px red;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    text-align: center;
+    text-shadow: 5px 5px 10px yellow;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(248, 16, 16);
+    text-align: center;
+}
+p{ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+
+hr{border-color: rgb(255, 0, 21);}

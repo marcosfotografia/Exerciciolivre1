@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../camera.ico">
+    <title>Img adapta</title>
+    <style>
+        body{background-color: chocolate;}
+    </style>
+</head>
+<body>
+    <h1>Imagens que se adaptam sozinhas</h1>
+    <a href="../index.html">Index</a>
+    &emsp; &emsp; Cap 11 Aula 2
+    <hr>
+    <p>Teste visualizar a imagem em diferentes dispositivos (fone, tablet) ou mude o size no navegador. Deve aparecer a img 1k x 1k ou 700x700 ou 300x300.</p>
+    <p>Sequência da menor para a maior</p>
+    <p>Clic direito para ver o código</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imgs17/300x300.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imgs17/700x700.png" type="image/png">
+        
+        <img src="imgs17/1000x1000.png" alt="Imagem flexível">
+    </picture>
+    
+</body>
+</html>
+

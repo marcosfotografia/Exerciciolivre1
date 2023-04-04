@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+
+main{
+    width: 1100px;
+    background: rgb(172, 131, 131);
+    box-shadow: 10px 10px 10px black;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;    
+}
+
+div{
+    display: inline-block;
+    background-color: aquamarine;
+    border: 5px solid black;
+    text-align: center;
+    width: 200px;
+    height: 200px;}
+
+    div:hover{background-color: yellow;}
+    /*class*/
+
+    .efeito::first-letter{background-color: blue;}
+    /* Element */

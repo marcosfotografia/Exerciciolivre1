@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+
+main{
+    background-color: chocolate;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px red;
+}
+
+h2{color: blue;}
+
+p{text-indent: 30px;
+text-align: justify;
+}
+
+p#um{color: darkolivegreen;}
+
+h2#dois{color: darkgreen;}
+p#tres{font-weight: 300;
+font-family: cursive;
+color: chartreuse;}
+p#quatro{text-align: right;
+color: blueviolet;}
+
+p#fonte{font-family: 'Black Ops One', cursive;}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+
+
+
+
+
+body{ background-color: bisque;}
+
+main{
+    background-color: rgb(223, 145, 27);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    text-indent: 30px; /*Margem do texto*/
+    width: 1200px;
+    box-shadow: 10px 10px 10px red;
+
+}
+
+
+h1{font-family: 'Kaushan Script', cursive;}
+
+p{font-family: 'Kaushan Script', cursive;}

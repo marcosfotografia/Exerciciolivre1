@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+*{font-family: Arial, Helvetica, sans-serif;}
+
+body{background-image: linear-gradient(to right,yellow, red );}
+
+main{background-color: blanchedalmond;
+width: 600px; /* Tamanho da tela maiin */
+padding: 40px; /*Margens*/
+margin: auto;
+border-radius: 20px; /*Bordas do maiin*/
+box-shadow: 5px 40px 40px black; /*Dir abaixo transparência cor */
+}
+
+h1{color: blue;
+text-align: center;
+text-shadow: 10px 5px 5px black;
+}
+
+h2{color: red;
+text-shadow: 5px 5px 5px blue;
+text-align: center;
+}
+
+p{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: darkgreen;
+text-align: justify;
+}

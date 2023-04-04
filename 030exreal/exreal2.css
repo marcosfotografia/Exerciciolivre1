@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    background-color:#d1d1cc;
+}
+
+main{
+    background-color: #F8F991;
+    width: 500px;
+    margin: auto;
+    padding: 10px; /*margem */
+    border-radius: 20px; /*Arredonda borda*/
+    box-shadow:20px 20px 10px  #9A6D38; /* lado baixo epalhar  cor */
+
+}
+
+
+h1{
+    color: #33673B;
+    text-shadow: 5px 5px 5px #9A6D38;
+}
+
+p{text-align: justify ;
+color: #33673B;}

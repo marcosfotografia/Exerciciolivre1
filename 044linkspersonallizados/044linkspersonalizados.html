@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Links Personaizados 44</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{color: red;
+        text-decoration: none;
+        font-weight: bold;}
+
+        a:visited{color: rgb(129, 204, 44);}
+        
+        a:hover{color:black;
+        text-decoration:underline;}
+
+        a:active{color: yellow;}
+
+        .especial::after{
+            content:'↞';  }/* seta copiada e colada  */
+
+        .especial::before{
+            content: '☃';
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Links Personalizados / Pseudo Classes</h1>
+    <a href="../index.html" target="_self" rel="next">Index</a> &emsp; <a href="https://erikasarti.com/html/dingbats-simbolos-desenhos/" target="_blank" rel="external">Símbolos</a>
+    <hr>
+    <h2>Normal: Red - Visitado: Green - Hover: Black Grifado - Active: Yellow</h2> <hr>
+    <ul>
+        <li><a href="http://gustavoguanabara.github.io" target="_blank" class="especial">Repositório GitHub</a></li>
+        <li><a href="http://youtube.com/cursoemvideo" target="_blank" class="especial">Canal do YouTube</a></li>
+        <li><a href="http://www.cursoemvideo.com
+        " target="_blank" class="especial
+        ">Site do Curso Em Vídeo</a></li>
+    </ul>
+    <hr>
+    <p>.especial::after{
+        content:'↞';}  /* seta copiada e colada  no STYLE */ <br> <br>
+        A linha abaixo é no html: <br>
+        &lt;a href="http://www.cursoemvideo.com
+         <mark>class="especial "</mark>&gt;Site do Curso Em Vídeo&lt;/a&gt;
+    </p>
+    <hr>
+    <h2>Seletores Personalizados</h2>
+    <ul>
+        <li># = ID</li>
+        <li>. = Class</li>
+        <li>: = Pseudo Class</li>
+        <li>:: = Pseudo Element</li>
+        <li>> = Children</li>
+    </ul>
+    
+</body>
+</html>

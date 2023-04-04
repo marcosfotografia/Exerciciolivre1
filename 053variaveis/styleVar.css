@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kaushan+Script&display=swap');
+
+:root{
+    --variavel1:#27df16;
+    --variavel2:#aa0099;
+    --varaivel3:#0088cc;
+
+    --font-padrao:Arial,Verdana
+    }
+
+    header>h1{color:var(--variavel2);}
+
+    main>h2{color:var(--varaivel3);}
+
+    main>p{color:var(--variavel1)}

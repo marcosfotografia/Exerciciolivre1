@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(188, 192, 180);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: rgb(146, 139, 131);
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    width: 1100px;
+    box-shadow: 10px 10px 10px black;
+    
+}
+
+div>p{display: none;} /* Somente no filho (p) */
+
+div:hover>p{display: block;
+    background-color: rgb(124, 27, 27);
+    color: aliceblue;
+    width: 300px;
+}
+
+
+
+

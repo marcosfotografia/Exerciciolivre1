@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* Color Theme Swatches in Hex */
+.color-theme_üveglámpás-1-hex { color: #0E89B2; }
+.color-theme_üveglámpás-2-hex { color: #FFAE0B; }
+.color-theme_üveglámpás-3-hex { color: #F25C05; }
+.color-theme_üveglámpás-4-hex { color: #A62103; }
+.color-theme_üveglámpás-5-hex { color: #590902; }
+
+
+
+/* Color Theme Swatches in RGBA */
+.color-theme_üveglámpás-1-rgba { color: rgba(14, 137, 178, 1); }
+.color-theme_üveglámpás-2-rgba { color: rgba(255, 174, 11, 1); }
+.color-theme_üveglámpás-3-rgba { color: rgba(242, 92, 5, 1); }
+.color-theme_üveglámpás-4-rgba { color: rgba(166, 33, 3, 1); }
+.color-theme_üveglámpás-5-rgba { color: rgba(89, 9, 2, 1); }
+
+/* Color Theme Swatches in HSLA */
+.color-theme_üveglámpás-1-hsla { color: hsla(195, 85, 37, 1); }
+.color-theme_üveglámpás-2-hsla { color: hsla(40, 100, 52, 1); }
+.color-theme_üveglámpás-3-hsla { color: hsla(22, 95, 48, 1); }
+.color-theme_üveglámpás-4-hsla { color: hsla(11, 96, 33, 1); }
+.color-theme_üveglámpás-5-hsla { color: hsla(4, 95, 17, 1); }

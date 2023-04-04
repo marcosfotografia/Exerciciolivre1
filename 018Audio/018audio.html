@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../camera.ico" type="image/x-icon">
+    <title>Audio</title>
+    <style>body{background-color: aquamarine;}</style>
+</head>
+<body>
+    <h1>Audio no site</h1>
+    <a href="../index.html" target="_self" rel="prev">Index</a>
+    &emsp; Cap 11 Aula 2 &emsp; &emsp; mp3, ogg ou wav(pesado)
+    <hr>
+    <audio src="midia/Tiro ao Álvaro Elis e Adoniran.mp3" controls autoplay>Tiro ao Álvaro</audio>
+    <p>Aqui, o jeito mais simples de incluir aúdio</p>
+    <hr>
+
+    <p>digita 'source' e escolhe o 'src'</p>
+    <p>&lt;audio preload ="<mark>metadata</mark>" autoplay controls loop&gt;> </p>
+    <p> &emsp; Pode ser 'none', 'preload', 'auto', ou 'metadata'.</p>
+    <audio preload ="metadata" autoplay controls loop>      <!--Carrega o audio mesmo sem usar-->
+        <source src="midia/Tiro ao Álvaro Elis e Adoniran.mp3" type="audio/mpeg"> <!--1° opção-->
+        <source src="midia/carly.wma" type="audio/wma"><!--2° opoção-->
+        Infeizmente seu navegador não reproduz os aúdios.        
+    </audio>
+    <p>Pode por três tipos de aúdiio, o navegador tenta tocar na Sequência, se não conseguir, mostra a mensagem de 'não consegue reproduzir o aúdio'. (ver código)</p>
+    <hr>
+
+</body>
+</html>

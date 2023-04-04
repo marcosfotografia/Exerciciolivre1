@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kaushan+Script&display=swap');
+
+p#fonte{background-color: aquamarine;
+    font-family: 'Black Ops One', cursive;
+}
+
+p#kaushan{font-family: 'Kaushan Script', cursive;}

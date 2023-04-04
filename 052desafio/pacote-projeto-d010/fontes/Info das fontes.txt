@@ -1,0 +1,4 @@
+Essa fonte idroid já veio no pacote do git hub .
+Tem no dafont.com. Tem glifos acentuados e símbolos.
+
+No adobe.fontes tem o BEBAS, que será usado on line.
