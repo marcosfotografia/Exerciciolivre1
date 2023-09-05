@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body{background-color: aliceblue; }
+
+header{background-color: bisque;  text-align: center;}
+
+nav{ background-color:blanchedalmond; text-align: center; }
+nav>a{margin-left: 20px;}
+
+main{background-color: bisque; }
+
+section{ }
+
+article{ }
+
+footer{background-color: bisque; text-align: center;}
+
+

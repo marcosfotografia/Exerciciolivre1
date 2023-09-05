@@ -1,0 +1,36 @@
+@charset "UT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+header{background-color: #447554;
+    color: aliceblue;
+    text-align: center;
+    line-height: 2px;
+    padding: 1px;  /* Manter a caixa de header maior que o texto */
+    border-radius: 20px 20px 0px 0px;
+    border-style: solid;
+    border-width: 1px 1px 0px 1px;
+    border-color: rgb(7, 7, 7);
+}
+
+nav{background-color: #447554;
+margin: 3px 1px 0px 1px;
+border-style: solid;
+border-width: 1px;
+text-align: center;}
+
+nav>a{margin-left: 10px ;
+margin-right: 20px;
+color: antiquewhite;}
+
+main{background-color: #447554;
+border-style: solid;
+border-width: 01px 1px 01px 1px;
+margin: 3px 0px 3px 0px;
+padding: 15px;}
+
+footer{background-color: #447554;
+text-align: center;
+border-radius: 0px 0px 20px 20px;
+border-style: solid;
+border-width: 1px;}

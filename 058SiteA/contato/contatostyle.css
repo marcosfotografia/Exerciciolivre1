@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Handlee&family=New+Rocker&display=swap');
+
+p.cordop{color:white;}
+
+.azulao{color: blue;}
+
+body{background-color: rgb(231, 222, 211);   }
+
+header{background-color:#2DA651;
+    text-align: center;
+    padding:  1px;
+    font-family: 'New Rocker', cursive;
+    color: #F2B866;
+}
+
+header > h1{padding: 0px 0px 0px 0px;
+    line-height: 0px;}
+header > h3{padding: 0px 0px 0px 0px;
+    line-height: 0px;}
+
+nav{background-color: #35F26D;
+text-align: left;
+}
+
+nav > a {padding: 10px;}
+
+main{background-color: blueviolet;
+    box-shadow: 20px 20px 30px 10px black;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    margin: 33px;
+    margin-top: 1px;
+    font-family: 'Handlee', cursive;
+    color: #9AB87A;
+    font-weight: bold;   
+}
+
+/* section{background-color: aquamarine;}  */
+
+main > section > article > p {text-indent: 50px;}
+
+/* article{background-color: rgb(216, 241, 102);} */
+
+footer{background-color: rgb(191, 41, 211);
+    font-family: 'Handjet', cursive;
+    color: red;
+    font-weight: bolder;
+    padding: 0px 0px 0px 20px;
+    }

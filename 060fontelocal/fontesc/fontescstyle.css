@@ -1,0 +1,50 @@
+@charset "HTF-8";
+
+@font-face {
+    font-family: 'letrahl';
+    src: url('Handlee/Handlee-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+body{ background-color: #d0dd9d;}
+
+header{background-color: #6b9af1; 
+    color: rgb(230, 209, 209);
+line-height: 1px;
+padding: 1px;
+border-radius: 20px;
+}
+
+nav { background-color: #6b9af1;
+text-align: center;
+margin:10px 0px 10px 0px;
+border-radius: 20px;}
+
+nav >a { margin:20px}
+
+main{background-color: #6b9af1; 
+padding: 1px 10px 1px 10px;
+margin: 0px 40px 0px 40px;
+border-radius: 20px;
+box-shadow:20px 20px 10px #070707;}
+
+section{ }
+
+article{ }
+
+footer{text-align: center; 
+    background-color:#6b9af1;
+    margin-top: 11px;
+    box-shadow: 0px 20px 10px black;
+    border-radius: 20px;
+    }
+
+
+.centraliza{text-align: center;}
+
+article>p{text-indent: 30px;}
+article>h4{text-align: center; text-decoration:underline;}
+
+p{font-family: 'letrahl';}
+

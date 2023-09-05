@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* *{padding: 0px;} */
+
+header{ background-color: rgb(226, 226, 91);
+   }
+
+main{background-color: cornflowerblue;}
+
+footer{background-color: burlywood;}
+
+.textcolor{color: blueviolet;}
+
+.centraliza{margin:auto;}
+
+.borda{background-color: rgb(243, 184, 184);
+    height: auto;
+    width:600px;
+    border-width:10px;
+    border-style: solid;
+    border-color: darkslategray;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;}

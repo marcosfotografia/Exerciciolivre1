@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+
+
+*{
+    margin: 3px;
+    /8padding: 5px; */
+}
+
+div > img{display: block;
+    margin: auto;} /* centraliza a imagem da div */
+
+
+body{background-color: #f7f2f2;}
+
+h1{}
+
+h2{}
+
+p{text-indent: 20px;}
+
+#colorindo{color: yellow;
+text-indent: 0px;
+font-size: 9px;}  /* Só pode usar o id uma única vez */
+
+.centrandos{text-align: center;}
+
+header{
+    background-color: #424E13;
+    text-align: center;
+    color: #8fb107;
+    line-height: 20px;  /*espaço entre as linhas*/
+    padding: 10px;     /* Espaço em volta do texto */
+}
+
+nav{
+    background-color:#8fb107;    
+    margin: 12px 3px;   /* espaço superior e nas pontas  */
+    padding: 1px;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav > a{padding: 20px;
+    color: #354108;}
+
+main{
+    background-color: #AEDA00;
+    padding: 10px;   /* Espaço em volta do texto */
+    margin: 20px 100px; /* 20px é o espaço superior e inferior . 100 px é Espaço da esquerda e da direita da caixa */
+    border-radius: 30px;
+    box-shadow:10px 10px 50px #011803;
+}
+
+section{
+   
+
+}
+
+article{
+
+}
+
+footer{
+    background-color:#8fb107;
+    text-align: center;
+    font-weight: bold;
+    margin: 1px;
+    padding: 1px;
+}
+

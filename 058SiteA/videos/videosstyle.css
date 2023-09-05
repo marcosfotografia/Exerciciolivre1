@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{background-color: bisque;}
+
+header{background-color:#0055E6 ;
+color: #e0e0db;
+padding:  5px;
+line-height: 1px;}
+
+nav{background-color: #196EFF;
+    margin-bottom: 2px;
+    color: #7e7c79;
+}
+
+nav > a{margin-left: 20px; color: #110236;}
+
+main{background-color:#996800 ;
+padding: 30px;}
+
+article > p {text-indent: 20px;}
+
+#videocentro{display: flex;
+justify-content: center;}

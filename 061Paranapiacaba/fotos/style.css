@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* *{margin: 0px;
+padding: 0px;}  */
+
+body{background-color: aquamarine;
+    margin: 0px;
+    padding: 0px;}
+
+header{ background-color: rgb(235, 235, 103);
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{background-color: blueviolet;  
+    text-align: center;  
+}
+
+nav>a{padding: 30px;}
+nav>a{margin-left: 30px; margin-right: 20px;}
+
+main{background-color: chartreuse;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer{background-color: bisque;
+}

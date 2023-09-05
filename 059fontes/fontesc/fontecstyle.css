@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script&family=Montserrat:wght@100&display=swap');
+
+body{background-color: #cbdcdd;
+}
+
+header{text-align: center;
+background-color: #180f33;
+margin-bottom: 10px;
+padding: 1px;
+border-radius: 10px;
+line-height: 1px;}
+
+nav{text-align: center;
+    background-color: rgb(15, 8, 58);
+    border-radius: 10px;
+    margin: 1px 30px;
+}
+
+nav>a{margin-left: 10px;
+    margin-right: 20px;
+    color: antiquewhite;
+    margin-bottom: 1px;
+}
+
+main{border-radius: 20px;
+    padding: 1%;
+    margin:10px  60px; 
+    border-radius: 20px;
+    background-color: #110730;
+}
+
+section{margin: 20px;}
+
+article{}
+
+footer{background-color: #0a0224;
+text-align: center;}
+
+span{color: red;}
+
+p:hover{background-color: rgb(29, 11, 110);}
+
+/*FONTES*/
+#fonte1{font-family: 'Black Ops One', cursive;}
+#fonte2{font-family: 'Dancing Script', cursive;}
+.fonte3{font-family: 'Dancing Script', cursive;}
+
+#azul{color: blue;}
+#verde{color: green;}
+#preto{color: black;}

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.fundo{background-color: #93af7c;}
+
+
+header{background-color: #0b1701;
+color: #93af7c;
+padding: 10px;
+line-height: 10px;
+text-align: center;}
+
+nav{background-color: #597045;
+    margin: 0px;
+}
+
+nav > a {padding: 30px;}
+
+
+main{margin:0px 100px ;
+    padding: 20px;}
+
+
+footer{background-color: #597045;
+    padding-left: 20px;
+}
