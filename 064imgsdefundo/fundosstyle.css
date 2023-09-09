@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body{background-color: blanchedalmond; }
+header{background-color: rgb(158, 228, 158); line-height: 3px; padding: 2px; text-align: center;}
+nav{background-color: rgb(128, 206, 128); text-align: center;}
+nav>a{margin: 0px 20px 0px 20px;}
+main{background-color: darkgray; }
+section{ }
+article{ }
+footer{background-color: #f6f233; text-align: center; box-shadow: 20px 10px 20px black;}
