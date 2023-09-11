@@ -25,7 +25,19 @@ article>p{text-indent: 30px;}   /* dois dedos */
 
 footer{background-color:#178aad  ; text-align: center;}
 
-p{ma}
+.centro{text-align: center;}
+div#um{width: 300px;  height: 200px;}
+div#dois{width: 400px; height: 200px;}
+
+div#tres{width:250px; height:200px;}
+#quatro{width: 500px; height: 200px; position:relative; top: -100px; left: 20px;}
+
+
+div.ajustes{display:inline-block; background-color: burlywood;}
+
+div#maior{background-color: aqua; width: 800px; height: 200px;}
+
+
 
 
 
