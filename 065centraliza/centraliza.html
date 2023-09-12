@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../cam marrom.ico" type="image/x-icon">
+    <title>65Centraliza</title>
+    <style>
+        section#container{position: relative; height: 500px; background-color: purple; padding: 10px; }
+
+        article#conteudo{position: absolute; height: 200px; width:400px; background-color: yellow;
+        left: 50%; top: 50%;
+        transform: translate(-50%, -50%);
+        }
+
+    </style>
+</head>
+<body>
+    <a href="../index.html">Index</a>
+    <section id="container">
+        <article id="conteudo">
+        <p>A parte roxa é SECTION , a parte amarela é ARTICLE.</p>
+        <p>O Section tem posição relative [position: relative;] e  Height.</p>
+        <p>O Article tem Position: Absolute,  left: 50%; top: 50% Isso coloca a quina (sup esq) no centro da Section</p>
+        <p>No article, transform: translate(-50%, -50%); move todo box article para o meio</p>
+        </article>
+    </section>
+    
+</body>
+</html>
