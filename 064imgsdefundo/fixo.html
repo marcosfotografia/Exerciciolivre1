@@ -8,12 +8,13 @@
     <style>
         body{
             height: 100vh;
-            background-color: black; 
+            /*background-color: black; 
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center;
             background-repeat: repeat;
             background-size: cover;
-            background-attachment: fixed;
+            background-attachment: fixed;  */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
         }
         main{background-color: white; max-width: 500px; padding: 10px; margin: auto; border-radius: 15px; border: 1px solid darkblue;}
         footer{margin: auto;color: aquamarine; width: 460px; background-color: blueviolet; text-align: center;}
@@ -47,7 +48,14 @@
     <p>O MAX faz com que o box main não mude de tamanho. <br>
         Não aparece barra de rolagem vertical. O conteúdo se ajusta.
     </p><hr>
-    <p>Se colocar só main{width:500px;} no celular,o main será maior que a tela. Precisa rolar a tela ou diminuir.</p>
+
+
+    <p>SHORTHAN  DO BACKGROUND</p>
+    <P>COLOR > IMG > POSITION > REPEAT > [SIZE] > ATTACHEMENT</P><HR>
+        <p>background:black url('endereço') center center no-repeat cover fixed;</p>
+
+
+    <hr><p>Se colocar só main{width:500px;} no celular,o main será maior que a tela. Precisa rolar a tela ou diminuir.</p>
 
 <p style="text-align: center;"><img src="Joss/desfocado.jpg" alt="Joss" width="90%"  ></p>
 <hr> p &nbsp; style="text-align: center;" &nbsp;
