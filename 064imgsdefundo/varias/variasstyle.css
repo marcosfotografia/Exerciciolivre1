@@ -32,10 +32,15 @@ div#dois{width: 400px; height: 200px;}
 div#tres{width:250px; height:200px;}
 #quatro{width: 500px; height: 200px; position:relative; top: -100px; left: 20px;}
 
+article#articlea{position: relative;background-color: chartreuse; height: 400px;}
 
-div.ajustes{display:inline-block; background-color: burlywood;}
+div#foto{display:inline-block; background-color: burlywood;  width: 30%; height: 200px; position: absolute;
+left:1%; top:05%}
 
-div#maior{background-color: aqua; width: 800px; height: 200px;}
+div#texto{display:inline-block; background-color: aqua; width: 65%; height: 200px; position: absolute;
+right: 1%; top: 5%;}
+
+p#centras{ background-color: burlywood;  width: 450px; height: 150px; margin: 5%; }
 
 
 
