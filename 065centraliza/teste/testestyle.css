@@ -29,9 +29,9 @@ p{}
 
 section#secaoa{position: relative;background-color: #80afec; height: 200px;}
 
-article#imagema{position: absolute; height: 250px; width: 300px;}
+article#imagema{position: absolute;  max-width: 30%; height: 200px;}
 
-article#textoa{position: absolute;}
+article#textoa{position: absolute; max-width: 60%; right: 1%; height: 200px;}
 
 
 
