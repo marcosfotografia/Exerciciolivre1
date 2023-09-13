@@ -4,7 +4,7 @@
 
 /* CORES */
 :root{--cordofundo:#95b2d8;
---cordobox:#17ad1e;}
+--cordobox:#114d4d;}
 
 body{background-color: var(--cordofundo); }
 
