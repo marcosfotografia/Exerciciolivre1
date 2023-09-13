@@ -16,6 +16,7 @@ margin: 5px 60px 25px 60px;  /*Espaço em volta da caixa do Main - Diminui o tam
 padding:  20px;  /* Espaço em volta do texto  */
 border-radius: 20px;
 box-shadow: 10px 20px 10px black;
+
 }
 
 section{ }
@@ -43,9 +44,9 @@ right: 1%; top: 5%;}
 p#centras{ background-color: burlywood;  width: 450px; height: 150px; margin: 5%; }
 
 
-article#superiorr{background-color: blueviolet; width: 800px; height: 250px; border: 11px; border-color: black; position: relative;}
+article#superiorr{background-color: blueviolet; max-width: 90%; height: 250px; border: 11px; border-color: black; position: relative;}
 
-div#esq{background-color: brown; display:inline-block; width: 35%; height: 200px; position: absolute; left: 5%; top: 50%; transform: translate(-10%, -50%);}
+div#esq{background-color: brown; display:inline-block; width: 35%; position: absolute; left: 5%; top: 50%; transform: translate(-10%, -50%);}
 
 div#dir{ background-color: rgb(104, 128, 111); display:inline-block; width: 60%; position: absolute; right:0% ; top: 50%; transform: translate(-1%, -50%);}
 
