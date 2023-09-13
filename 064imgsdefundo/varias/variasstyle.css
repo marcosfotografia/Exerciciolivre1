@@ -32,7 +32,7 @@ div#dois{width: 400px; height: 200px;}
 div#tres{width:250px; height:200px;}
 #quatro{width: 500px; height: 200px; position:relative; top: -100px; left: 20px;}
 
-article#articlea{position: relative;background-color: chartreuse; height: 400px;}
+article#articlea{position: relative;background-color: chartreuse; height: 300px;}
 
 div#foto{display:inline-block; background-color: burlywood;  width: 30%; height: 200px; position: absolute;
 left:1%; top:05%}
@@ -41,6 +41,15 @@ div#texto{display:inline-block; background-color: aqua; width: 65%; height: 200p
 right: 1%; top: 5%;}
 
 p#centras{ background-color: burlywood;  width: 450px; height: 150px; margin: 5%; }
+
+
+article#superiorr{background-color: blueviolet; width: 800px; height: 250px; border: 11px; border-color: black; position: relative;}
+
+div#esq{background-color: brown; display:inline-block; width: 300px; height: 200px; position: absolute;}
+
+div#dir{ background-color: rgb(104, 128, 111); display:inline-block; width: 450px; position: absolute; right:0% ; top: 50%; transform: translate(-10%, -50%);}
+
+img{display: block; margin: auto;}
 
 
 
