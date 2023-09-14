@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body{}
+header{background-color: blue; color: white; text-align: center; line-height: 1px;  padding: 15px 0px 20px 0px; font-variant: small-caps;}
+header>a{color: yellow; text-decoration: none; }
+a:hover{color: greenyellow; font-style: italic;}
+
+
+
+footer{text-align: center;}
