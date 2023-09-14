@@ -8,7 +8,7 @@
 html, body{background-color: darkgray; min-height: 100vh; font-family: var(--fonte1);}
 
 header{background-color: black ; color: white; text-align: center;}
-header > h1{padding-top: 50px; font-size: 4em;
+header > h1{padding-top: 50px; font-size: 10vw;
      font-family: var(--fonte2);   /*text-transform: uppercase;*/
 font-variant: small-caps; /* Todas maísculas mas as 1° maiores */}
 
@@ -17,7 +17,7 @@ header >p{padding-bottom: 50px;}
 a{color: white; text-decoration: none; font-weight: bolder;}
 a:hover{text-decoration: underline;}
 
-section{padding-top: 10vh; padding-bottom: 10vh; line-height: 2em; padding-left: 30px; font-family: var(--fonte3);}
+section{padding-top: 10vh; padding-bottom: 10vh; line-height: 2em; padding-left: 30px; font-family: var(--fonte3); font-size: 5vw;}
 section.normal{background-color:  white; color: black;}
 section.imagem{background-color: rgb(58, 52, 52); color: white;}
 section.imagem>p{background-color: rgba(0, 0, 0, 0.199); width: 400px;}
