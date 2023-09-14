@@ -19,10 +19,10 @@ a:hover{text-decoration: underline;}
 
 section{padding-top: 10vh; padding-bottom: 10vh; line-height: 2em; padding-left: 30px; font-family: var(--fonte3); font-size: 2.5vw;}
 section.normal{background-color:  white; color: black;}
-section.imagem{background-color: rgb(58, 52, 52); color: white;}
-section.imagem>p{background-color: rgba(0, 0, 0, 0.199); width: 400px; display: inline-block; padding: 15px;}
+section.imagem{background-color: rgb(58, 52, 52); color: white;  background-attachment: fixed;}
+section.imagem>p{background-color: rgba(0, 0, 0, 0.205); width: 400px; display: inline-block; padding: 15px; text-shadow: 2px 2px 0 black;}
 section>p{padding-bottom: 2em;}
-section#img01{background-image: url("background001.jpg"); background-position: right center;}
-section#img02{background-image: url('background002.jpg');}
+section#img01{background-image: url("background001.jpg"); background-position: right center; background-size: cover;}
+section#img02{background-image: url('background002.jpg'); background-size: cover;}
 
 footer{background-color: rgba(0, 0, 0, 0.445); color: white; text-align: center;padding: 10px;}
