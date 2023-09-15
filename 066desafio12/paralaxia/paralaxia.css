@@ -1,16 +1,17 @@
 @charset "UTF-8";
-/* *{margin: 0px; padding: 0px;}  */
+*{margin: 0px; padding: 0px;}  
 :root{--cor1:#43f00e;}
 
-/* html, body{background-color: #43f00e; min-height: 100vh; } */
+html, body{background-color: #43f00e;  min-height: 100vh;}
 
 header{background-color: blue; color: white; text-align: center; 
     line-height: 40px; 
     font-variant: small-caps; 
     padding-top: 50px;}
 
-header>p>a{color: yellow; text-decoration: none; font-variant:small-caps; }
+header>p>a{color: yellow; text-decoration: none; font-variant:small-caps; font-size: larger; }
 p>a:hover{color: greenyellow; font-style: italic;  }
+header>p{padding-bottom: 50px;} /* Espaço na parte de baixo do p , links, no header */
 
 section{ padding-top: 10vh; padding-bottom: 10vh; line-height: 2em; padding-left: 30px; font-family: var(--fonte3); font-size: 2.5vw;}
 
