@@ -10,13 +10,13 @@
 html, body{background-color: #43f00e;  min-height: 100vh;}
 
 header{background-color: blue; color: white; text-align: center; 
-    line-height: 40px; font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 40px; font-family: var(--fonte1); font-size: 3vw;
     font-variant: small-caps; 
     padding-top: 50px;}
 
 header>p>a{color: yellow; text-decoration: none; font-variant:small-caps; font-size: larger; font-family:Verdana, Geneva, Tahoma, sans-serif;}
 p>a:hover{color: greenyellow; font-style: italic;  }
-header>p{padding-bottom: 50px;} /* Espaço na parte de baixo do p , links, no header */
+header>p{padding-bottom: 50px; padding-top: 20px;} /* Espaço na parte de baixo do p , links, no header */
 
 section{ padding-top: 5vh; padding-bottom: 5vh; line-height: 2em; padding-left: 30px; font-family: var(--fonte2); font-size: 2.5vw;} /*padding em volta do texto das sections*/
 
@@ -27,9 +27,9 @@ section.imagem>p{background-color: #24680f48; width: 400px; padding: 20px;}
 
 
 
-section#img1{background-image: url('background001.jpg'); background-size: cover;}
+section#img1{background-image: url('background001.jpg'); background-size: cover; background-position: right center;}
 section#img2{background-image: url('background002.jpg'); background-size: cover;}
-section#img3{background-image: url('zulay.jpg'); background-size: cover;}
+section#img3{background-image: url('zulay.jpg'); background-size: cover;background-position: right center;}
 
 
 footer{text-align: center; background-color: var(--cor1);}
