@@ -1,29 +1,35 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
 *{margin: 0px; padding: 0px;}  
-:root{--cor1:#43f00e;}
+:root{--cor1:#43f00e;
+    --fonte1:fonte-family: 'Passion One', cursive;
+    --fonte2:'Sriracha', cursive;}
+
+
 
 html, body{background-color: #43f00e;  min-height: 100vh;}
 
 header{background-color: blue; color: white; text-align: center; 
-    line-height: 40px; 
+    line-height: 40px; font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-variant: small-caps; 
     padding-top: 50px;}
 
-header>p>a{color: yellow; text-decoration: none; font-variant:small-caps; font-size: larger; }
+header>p>a{color: yellow; text-decoration: none; font-variant:small-caps; font-size: larger; font-family:Verdana, Geneva, Tahoma, sans-serif;}
 p>a:hover{color: greenyellow; font-style: italic;  }
 header>p{padding-bottom: 50px;} /* Espaço na parte de baixo do p , links, no header */
 
-section{ padding-top: 10vh; padding-bottom: 10vh; line-height: 2em; padding-left: 30px; font-family: var(--fonte3); font-size: 2.5vw;}
+section{ padding-top: 5vh; padding-bottom: 5vh; line-height: 2em; padding-left: 30px; font-family: var(--fonte2); font-size: 2.5vw;} /*padding em volta do texto das sections*/
 
 section.normal{background-color: rgb(245, 247, 247);}
 
-section.imagem{background-color: rgba(32, 25, 25, 0.897); color: white;}
+section.imagem{background-color: rgba(32, 25, 25, 0.897); color: white; background-attachment: fixed; box-shadow: inset 20px 20px 20px black;}
+section.imagem>p{background-color: #24680f25; width: 400px; padding: 20px;}
 
 
 
-section#img1{}
-section#img2{}
-section#img3{}
+section#img1{background-image: url('background001.jpg'); background-size: cover;}
+section#img2{background-image: url('background002.jpg'); background-size: cover;}
+section#img3{background-image: url('zulay.jpg'); background-size: cover;}
 
 
 footer{text-align: center; background-color: var(--cor1);}
