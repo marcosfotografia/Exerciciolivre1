@@ -29,7 +29,7 @@ section.imagem>p{background-color: #24680f48; width: 50vw; padding: 20px;}
 
 section#img1{background-image: url('background001.jpg'); background-size: cover; background-position: right center;}
 section#img2{background-image: url('background002.jpg'); background-size: cover;}
-section#img3{background-image: url('zulay.jpg'); background-size: 100%;background-position: center center;}
+section#img3{background-image: url('zulay.jpg'); background-size: 100%; }
 
 
 footer{text-align: center; background-color: var(--cor1); color: beige;}
