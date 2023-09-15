@@ -22,8 +22,8 @@ section{ padding-top: 5vh; padding-bottom: 5vh; line-height: 2em; padding-left: 
 
 section.normal{background-color: rgb(245, 247, 247);}
 
-section.imagem{background-color: rgba(32, 25, 25, 0.897); color: white; background-attachment: fixed; box-shadow: inset 20px 20px 20px black;}
-section.imagem>p{background-color: #24680f25; width: 400px; padding: 20px;}
+section.imagem{background-color: rgba(32, 25, 25, 0.973); color: white; background-attachment: fixed; box-shadow: inset 20px 20px 20px rgb(6, 7, 0);}
+section.imagem>p{background-color: #24680f48; width: 400px; padding: 20px;}
 
 
 
