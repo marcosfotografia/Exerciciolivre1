@@ -9,14 +9,14 @@ nav{text-align: center; background-color:#113750; border-style:solid; border-col
 nav>a{ color: yellow; margin:0px 20px 0px 20px; }
 nav>a:hover{color: aliceblue;}
 
-section{font-family:  'Alkatra', cursive; font-size: 4vw; padding: 5vh;}
+section{font-family:  'Alkatra', cursive; font-size: 3vw; padding: 5vh;} /*Padding delimita o box de sombra de fundo*/
 section.imagem{background-color: #1137509a; background-attachment: fixed;}
 section.imagem>p{color: #ffffff; width: 40vw; background-color: #0a0a0a65; padding: 40px; }
 section.normal{}
 
 section#img1{background-image: url('estatua.jpg');background-size: cover;}
 section#img2{background-image: url('flor.jpg'); background-size:cover}
-section#img3{background-image: url('templo.jpg'); background-size: cover;}
+section#img3{background-image: url('templo.jpg'); background-size: 100%;}
 
 
 
