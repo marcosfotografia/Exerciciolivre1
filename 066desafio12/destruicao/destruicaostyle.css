@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Catamaran:wght@500&display=swap');
-:root{--cor1:#550000; --cor2:#801515; --cor3:#AA3939; --cor4:#FFAAAA;}
+:root{--cor1:#550000; --cor2:#E07600; --cor3:#AA3939; --cor4:#FFAAAA;}
 *{margin: 0px; padding: 0px;}  /* Espaço entre as sections . Espaço do texto das sections. Ocupar toda a tela */
 
 body{background-color: aquamarine; }
@@ -18,7 +18,7 @@ section.imagem>p{background-color: rgba(0, 0, 0, 0.404); width: 60vw; padding: 1
 section.normal{background-color: white; color: black; }
 
 section#img1{background-image: url('flor.jpg'); background-size: 100vw; background-position: center;}
-section#img2{background-image: url('oculos.jpg'); background-size: 100vw; background-position: center center;}
+section#img2{background-image: url('oculos.jpg'); background-size: 100vw; background-position: center center; background-repeat: no-repeat;}
 section#img3{background-image: url('kombi.jpg'); background-size: 100%;}
 section#img4{background-image: url('ramo.jpg'); background-size: 100%;}
 
