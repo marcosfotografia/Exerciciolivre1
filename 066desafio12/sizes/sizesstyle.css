@@ -1,0 +1,10 @@
+@charset "UTF-8";
+:root{--cor1:green;}
+
+header{}
+nav{}
+main{ }
+section{}
+
+
+footer{text-align: center; background-color: var(--cor1); color: white;}
