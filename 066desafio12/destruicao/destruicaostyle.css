@@ -1,0 +1,21 @@
+@charset "UTF-8";
+:root{--cor1:#550000; --cor2:#801515; --cor3:#AA3939; --cor4:#FFAAAA;}
+*{margin: 0px; padding: 0px;}  /* Espaço entre as sections . Espaço do texto das sections. Ocupar toda a tela */
+
+body{background-color: aquamarine; }
+
+header{color: white; background-color: var(--cor2); text-align: center; padding-bottom: 10px; }
+nav{background-color: var(--cor3); color: aquamarine; text-align: center; }
+nav>a{margin: 20px; color: aquamarine; }
+
+main{  }
+section{ }
+
+section.imagem{background-color: black; color: white; padding: 10px;}
+
+section.normal{background-color: white; color: black;padding: 10vh; }
+
+section#img1{}
+section#img2{}
+
+footer{ text-align: center; background-color: var(--cor2);color: white;}

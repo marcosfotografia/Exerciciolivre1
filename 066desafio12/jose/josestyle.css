@@ -17,7 +17,7 @@ section.normal{}
 
 section#img1{background-image: url('estatua.jpg');background-size:100vw;}
 section#img2{background-image: url('flor.jpg');   background-size:100vw}  /* Contain não cobre toda a área */
-section#img3{background-image: url('templo.jpg'); background-size:100%;}
+section#img3{background-image: url('templo.jpg'); background-size:100%;}/* nem aparece com 100%  */
 
 
 
