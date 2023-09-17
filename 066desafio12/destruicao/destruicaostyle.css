@@ -13,6 +13,7 @@ main{  }
 section{padding: 5vh; line-height: 2em; font-size: 2em; font-family: Alkatra;}
 
 section.imagem{background-color: black; color: white; background-attachment: fixed; }
+section.imagem>p{background-color: rgba(0, 0, 0, 0.404); width: 60vw; padding-left: 10px;}
 
 section.normal{background-color: white; color: black; }
 
