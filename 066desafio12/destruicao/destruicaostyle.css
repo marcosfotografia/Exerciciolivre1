@@ -13,12 +13,13 @@ main{  }
 section{padding: 5vh; line-height: 2em; font-size: 3vw; font-family: Alkatra;}
 
 section.imagem{background-color: black; color: white; background-attachment: fixed; }
-section.imagem>p{background-color: rgba(0, 0, 0, 0.404); width: 60vw; padding: 10px; border-radius: 20px;}
+section.imagem>p{background-color: rgba(0, 0, 0, 0.404); width: 60vw; padding: 10px; border-radius: 10px;}
 
 section.normal{background-color: white; color: black; }
 
-section#img1{background-image: url('flor.jpg'); background-size: cover; background-position: center;}
+section#img1{background-image: url('flor.jpg'); background-size: 100vw; background-position: center;}
 section#img2{background-image: url('oculos.jpg'); background-size: 100vw; background-position: center center;}
 section#img3{background-image: url('kombi.jpg'); background-size: 100%;}
+section#img3{background-image: url('ramo.jpg'); background-size: 100%;}
 
 footer{ text-align: center; background-color: var(--cor2);color: white;}
