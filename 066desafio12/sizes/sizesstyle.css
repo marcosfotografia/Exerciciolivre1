@@ -14,6 +14,7 @@ section#img1{background-image: url('oculos.jpg');background-position: center cen
 section#img2{background-image: url('oculos.jpg');background-position: center center; background-size: cover;}
 section#img3{background-image: url('oculos.jpg');background-position: center center; }
 section#img4{background-image: url('oculos.jpg');background-position: center center; background-size: 100vw;}
+section#img4{background-image: url('oculos.jpg');background-position: center center; background-size: contain;}
 
 section.normal{color:black;}
 section.normal>p{margin-left: 30px;}
