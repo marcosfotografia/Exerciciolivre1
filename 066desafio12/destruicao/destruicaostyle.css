@@ -10,7 +10,7 @@ nav{background-color: var(--cor3); color: aquamarine; text-align: center; }
 nav>a{margin: 20px; color: aquamarine; }
 
 main{  }
-section{padding: 5vh; line-height: 2em; font-size: 2em; font-family: Alkatra;}
+section{padding: 5vh; line-height: 2em; font-size: 3vw; font-family: Alkatra;}
 
 section.imagem{background-color: black; color: white; background-attachment: fixed; }
 section.imagem>p{background-color: rgba(0, 0, 0, 0.404); width: 60vw; padding-left: 10px;}
@@ -19,6 +19,6 @@ section.normal{background-color: white; color: black; }
 
 section#img1{background-image: url('flor.jpg'); background-size: cover; background-position: center;}
 section#img2{background-image: url('oculos.jpg'); background-size: cover; background-position: center center;}
-section#img3{background-image: url('kombi.jpg'); background-size: cover;}
+section#img3{background-image: url('kombi.jpg'); background-size: 100%;}
 
 footer{ text-align: center; background-color: var(--cor2);color: white;}
