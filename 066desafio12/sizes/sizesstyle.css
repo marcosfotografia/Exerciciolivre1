@@ -5,7 +5,7 @@
 header{ background-color: var(--cor1); padding: 10px; text-align: center; color: antiquewhite;}
 nav{background-color: var(--cor2); color: aliceblue; text-align: center;}
 nav>a{margin-right: 22px;}
-main{ }
+main{font-family: 'Courier New', Courier, monospace; font-size: 2em; }
 
 section{padding: 10px; margin: 10px; line-height: 2em;}
 section.imagem{background-attachment: fixed;}
