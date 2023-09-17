@@ -6,7 +6,15 @@ header{ background-color: var(--cor1); padding: 10px; text-align: center; color:
 nav{background-color: var(--cor2); color: aliceblue; text-align: center;}
 nav>a{margin-right: 22px;}
 main{ }
-section{}
+
+section{padding: 10px; margin: 10px; line-height: 2em;}
+section.imagem{background-attachment: fixed;}
+section#img1{background-image: url('oculos.jpg');background-position: center center;}
+section#img2{background-image: url('oculos.jpg');background-position: center center;}
+section#img3{background-image: url('oculos.jpg'); background-position: center center;}
+
+section.normal{}
 
 
-footer{text-align: center; background-color: var(--cor1); color: white;}
+
+footer{text-align: center; background-color: var(--cor1); color: white; margin-top: 20px;}
