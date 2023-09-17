@@ -13,6 +13,7 @@ section.imagem>p{background-color: rgba(0, 0, 0, 0.466); width: 60vw; padding: 3
 section#img1{background-image: url('oculos.jpg');background-position: center center; background-size: 100% ;}
 section#img2{background-image: url('oculos.jpg');background-position: center center; background-size: cover;}
 section#img3{background-image: url('oculos.jpg');background-position: center center; }
+section#img4{background-image: url('oculos.jpg');background-position: center center; background-size: 100vw;}
 
 section.normal{color:black;}
 section.normal>p{margin-left: 30px;}
