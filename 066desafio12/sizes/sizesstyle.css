@@ -12,9 +12,10 @@ section.imagem{background-attachment: fixed; color: white;}
 section.imagem>p{background-color: rgba(0, 0, 0, 0.466); width: 60vw; padding: 30px 10px 30px 10px; margin:20px ;}
 section#img1{background-image: url('oculos.jpg');background-position: center center; background-size: 100% ;}
 section#img2{background-image: url('oculos.jpg');background-position: center center; background-size: cover;}
-section#img3{background-image: url('oculos.jpg');background-position: center center; background-size: 50vh; background-repeat: no-repeat;}
+section#img3{background-image: url('oculos.jpg');background-position: center center; }
 
 section.normal{color:black;}
+section.normal>p{margin-left: 30px;}
 
 
 
