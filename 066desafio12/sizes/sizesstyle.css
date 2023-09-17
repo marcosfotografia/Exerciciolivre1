@@ -9,6 +9,7 @@ main{font-family: 'Courier New', Courier, monospace; font-size: 2vw; }
 
 section{padding: 10px; margin: 10px; line-height: 2em;}
 section.imagem{background-attachment: fixed;}
+section.imagem>p{background-color: rgba(0, 0, 0, 0.466); width: 60vw; padding: 10px; margin: 20px;}
 section#img1{background-image: url('oculos.jpg');background-position: center center;background-size: 100% ;}
 section#img2{background-image: url('oculos.jpg');background-position: center center; background-size: cover;}
 section#img3{background-image: url('oculos.jpg'); background-position: center center; background-size:100vf;}
