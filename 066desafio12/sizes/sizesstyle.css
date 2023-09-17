@@ -1,8 +1,10 @@
 @charset "UTF-8";
-:root{--cor1:green;}
+:root{--cor1:green; --cor2:rgba(0, 128, 0, 0.795);}
+*{margin:0; padding: 0;}
 
-header{}
-nav{}
+header{ background-color: var(--cor1); padding: 10px; text-align: center; color: antiquewhite;}
+nav{background-color: var(--cor2); color: aliceblue; text-align: center;}
+nav>a{margin-right: 22px;}
 main{ }
 section{}
 

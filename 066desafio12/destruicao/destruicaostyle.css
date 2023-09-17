@@ -9,7 +9,7 @@ header{color: white; background-color: var(--cor2); text-align: center; padding-
 nav{background-color: var(--cor3); color: aquamarine; text-align: center; }
 nav>a{margin: 20px; color: aquamarine; }
 
-main{  }
+main{ background-color: azure; }
 section{padding: 5vh; line-height: 2em; font-size: 3vw; font-family: Alkatra;}
 
 section.imagem{background-color: black; color: white; background-attachment: fixed; }
