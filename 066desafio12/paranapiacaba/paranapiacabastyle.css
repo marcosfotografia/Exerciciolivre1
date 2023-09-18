@@ -2,25 +2,28 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Catamaran:wght@500&display=swap');
 :root{--cor1:#554700; --cor2:#d4c26a; --cor3:#554700f5; --fonte1: 'Alkatra', cursive; --fonte2: 'Catamaran', sans-serif;}
+*{margin: 0px; padding: opx;}
+html, body{background-color: aquamarine; min-height: 100vh;}
 
 
-header{text-align: center; background-color: var(--cor1); color: white; line-height: 1em; padding: 20px; font-family:var(--fonte1) ;}
+header{text-align: center; background-color: var(--cor1); color: white; line-height: 2em; padding: 20px; font-family:var(--fonte1) ;}
 nav{text-align: center; background-color: var(--cor3);}
 nav>a{margin: 0px 30px; 0px 30px; color: rgb(94, 146, 135); text-decoration: none;}
 
 main{ }
 
-section{font-family: var(--fonte2); font-size: 2em; }
-section>p{padding: 20px;}
-section.fundo{color:white; background-attachment: fixed;padding: 20px; }
-section.fundo>p{background-color: rgba(0, 0, 0, 0.397); width: 40vw; padding: 20px; }
-section.limpo{color: black;}
+section{padding-top: 10vh; padding-bottom: 10vh; padding-left: 30px; line-height: 2em; font-family: var(--fonte1); font-size: 2.5vw;}
+section>p{padding-bottom: 2em;}
+section.fundo{background-color: rgba(235, 228, 228, 0.925); color: white; background-attachment: fixed; }
+section.fundo>p{background-color: rgba(0, 0, 0, 0.507); width: 400px; display:inline-block ;padding: 15px; text-shadow: 2px 2px 2px black;}
+section.limpo{background-color: white; color: rgba(0, 0, 0, 0.979);}
 
 
-section#img1{background-image: url('fotos/igreja.jpg'); background-size: 100%; background-repeat: no-repeat;}
-section#img2{background-image: url('fotos/janela.jpg');background-size: cover; background-repeat: no-repeat;}
-section#img3{background-image: url('fotos/mercado.jpg');background-size: 100%; background-repeat: no-repeat;}
-section#img4{background-image: url('fotos/pan.jpg');    background-size: 100%; background-repeat: no-repeat;}
-section#img5{background-image: url('fotos/sucata.jpg');background-size: 100%; background-repeat: no-repeat;}
+section#img1{background-image: url('fotos/big/igrejabig.jpg'); background-size: cover; background-repeat:no-repeat;}
+section#img2{background-image: url('fotos/big/casabig.jpg'); background-size: cover; background-repeat:no-repeat;}
+section#img3{background-image: url('fotos/big/trilhobig.jpg');background-size: cover;  background-repeat:no-repeat;}
+section#img4{background-image: url('fotos/pan.jpg');    background-size: cover; background-repeat: no-repeat;}
+section#img5{background-image: url('fotos/big/restaurantebig.jpg'); background-size: cover; background-repeat: no-repeat;}
+section#img6{background-image: url('fotos/background002.jpg'); background-size: 100%; background-repeat: no-repeat;}
 
 footer{text-align: center; background-color: var(--cor1); color: white;}
