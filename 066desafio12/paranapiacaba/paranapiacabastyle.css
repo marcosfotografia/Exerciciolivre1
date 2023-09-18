@@ -10,17 +10,17 @@ nav>a{margin: 0px 30px; 0px 30px; color: rgb(94, 146, 135); text-decoration: non
 
 main{ }
 
-section{font-family: var(--fonte2); font-size: 2em;}
+section{font-family: var(--fonte2); font-size: 2em; }
 section>p{padding: 20px;}
-section.fundo{color:white; background-attachment: fixed;}
-section.fundo>p{background-color: rgba(0, 0, 0, 0.397); width: 40vw; margin: 20px; }
+section.fundo{color:white; background-attachment: fixed;padding: 20px; }
+section.fundo>p{background-color: rgba(0, 0, 0, 0.397); width: 40vw; padding: 20px; }
 section.limpo{color: black;}
 
 
-section#img1{background-image: url('fotos/igreja.jpg'); background-size: 100%;}
-section#img2{background-image: url('fotos/janela.jpg');background-size: cover;}
-section#img3{background-image: url('fotos/mercado.jpg');background-size: 100%;}
-section#img4{background-image: url('fotos/pan.jpg'); background-size: 100%;}
-section#img5{background-image: url('fotos/sucata.jpg');background-size: 100%;}
+section#img1{background-image: url('fotos/igreja.jpg'); background-size: 100%; background-repeat: no-repeat;}
+section#img2{background-image: url('fotos/janela.jpg');background-size: cover; background-repeat: no-repeat;}
+section#img3{background-image: url('fotos/mercado.jpg');background-size: 100%; background-repeat: no-repeat;}
+section#img4{background-image: url('fotos/pan.jpg');    background-size: 100%; background-repeat: no-repeat;}
+section#img5{background-image: url('fotos/sucata.jpg');background-size: 100%; background-repeat: no-repeat;}
 
 footer{text-align: center; background-color: var(--cor1); color: white;}
