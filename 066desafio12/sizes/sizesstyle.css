@@ -7,14 +7,16 @@ nav{background-color: var(--cor2); color: aliceblue; text-align: center;}
 nav>a{margin-right: 11vw;}
 main{font-family: 'Courier New', Courier, monospace; font-size: 2vw; }
 
-section{padding: 10px; margin: 10px; line-height: 2em;}
+section{padding: 10px; margin: 0px; line-height: 2em; font-family: 'Sriracha', cursive;}
 section.imagem{background-attachment: fixed; color: white;}
-section.imagem>p{background-color: rgba(0, 0, 0, 0.466); width: 60vw; padding: 30px 10px 30px 10px; margin:20px ;}
+section.imagem>p{background-color: rgba(0, 0, 0, 0.466); width: 60vw; padding: 30px 10px 30px 10px; margin:20px ;
+text-shadow: 2px 2px 0px black;}
+
 section#img1{background-image: url('oculos.jpg');background-position: center center; background-size: 100% ;}
 section#img2{background-image: url('oculos.jpg');background-position: center center; background-size: cover;}
 section#img3{background-image: url('oculos.jpg');background-position: center center; }
-section#img4{background-image: url('oculos.jpg');background-position: center center; background-size: 100vw;}
-section#img5{background-image: url('oculos.jpg');background-position: center center; background-size: contain;}
+section#img4{background-image: url('oculos.jpg');background-position: center center; background-size: 100vw;background-repeat: no-repeat;}
+section#img5{background-image: url('oculos.jpg');background-position: center center; background-size: contain; }
 
 section.normal{color:black;}
 section.normal>p{margin-left: 30px;}

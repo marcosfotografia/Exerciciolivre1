@@ -10,9 +10,9 @@ nav{background-color: var(--cor3); color: aquamarine; text-align: center; }
 nav>a{margin: 20px; color: aquamarine; }
 
 main{ background-color: azure; }
-section{padding: 5vh; line-height: 2em; font-size: 3vw; font-family: Alkatra;}
+section{padding: 05vh; line-height: 2em; font-size: 3vw; font-family: Alkatra;}
 
-section.imagem{background-color: black; color: white; background-attachment: fixed; }
+section.imagem{background-color: black; color: white; background-attachment: fixed; margin: 0px;}
 section.imagem>p{background-color: rgba(0, 0, 0, 0.404); width: 60vw; padding: 10px; border-radius: 10px;}
 
 section.normal{background-color: white; color: black; }
