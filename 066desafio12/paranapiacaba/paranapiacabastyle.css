@@ -15,11 +15,11 @@ main{ }
 section{padding-top: 10vh; padding-bottom: 10vh; padding-left: 30px; line-height: 2em; font-family: var(--fonte1); font-size: 2.5vw;}
 section>p{padding-bottom: 2em;}
 section.fundo{background-color: rgba(235, 228, 228, 0.925); color: white; background-attachment: fixed; }
-section.fundo>p{background-color: rgba(0, 0, 0, 0.507); width: 400px; display:inline-block ;padding: 15px; text-shadow: 2px 2px 2px black;}
+section.fundo>p{background-color: rgba(0, 0, 0, 0.507); width: 40vw; display:inline-block ;padding: 15px; text-shadow: 2px 2px 2px black;}
 section.limpo{background-color: white; color: rgba(0, 0, 0, 0.979);}
 
 
-section#img1{background-image: url('fotos/big/igrejabig.jpg'); background-size: cover; background-repeat:no-repeat;}
+section#img1{background-image: url('fotos/big/igrejabig.jpg'); background-size: cover; background-repeat:no-repeat; background-position: left center;}
 section#img2{background-image: url('fotos/big/casabig.jpg'); background-size: cover; background-repeat:no-repeat;}
 section#img3{background-image: url('fotos/big/trilhobig.jpg');background-size: cover;  background-repeat:no-repeat;}
 section#img4{background-image: url('fotos/pan.jpg');    background-size: cover; background-repeat: no-repeat;}
