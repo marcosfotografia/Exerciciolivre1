@@ -14,4 +14,6 @@ main{ }
 
 section{ }
 
+section#img1{background-image: url('Imgs/img1.jpg'); background-size: cover;}
+
 footer{text-align: center; background-color: var(--corheader); color: white; margin-top: 20px;}
