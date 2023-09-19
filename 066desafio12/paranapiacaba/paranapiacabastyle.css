@@ -14,7 +14,7 @@ main{ }
 
 section{padding-top: 10vh; padding-bottom: 10vh; padding-left: 30px; line-height: 2em; font-family: var(--fonte1); font-size: 2.5vw;}
 section>p{padding-bottom: 2em;}
-section.fundo{background-color: rgba(235, 228, 228, 0.925); color: white; background-attachment: fixed; }
+section.fundo{background-color: rgba(235, 228, 228, 0.925); color: white; background-attachment: fixed; box-shadow: inset 6px 6px 13px 0px rgb(26, 25, 25);}
 section.fundo>p{background-color: rgba(0, 0, 0, 0.507); width: 40vw; padding: 90px 90px 90px 20px; text-shadow: 2px 2px 2px black; }
 section.limpo{background-color: white; color: rgba(0, 0, 0, 0.979);}
 
@@ -22,7 +22,7 @@ section.limpo{background-color: white; color: rgba(0, 0, 0, 0.979);}
 section#img1{background-image: url('fotos/big/igrejabig.jpg'); background-size: cover; background-repeat:no-repeat;background-position: top; }
 section#img2{background-image: url('fotos/big/casabig.jpg'); background-size: cover; background-repeat:no-repeat;}
 section#img3{background-image: url('fotos/big/trilhobig.jpg');background-size: cover;  background-repeat:no-repeat;}
-section#img4{background-image: url('fotos/pan.jpg');    background-size: cover; background-repeat: no-repeat;}
+section#img4{background-image: url('fotos/big/placabig.jpg');    background-size: cover; background-repeat: no-repeat;}
 section#img5{background-image: url('fotos/big/restaurantebig.jpg'); background-size: cover; background-repeat: no-repeat;}
 section#img6{background-image: url('fotos/background002.jpg'); background-size: cover; background-repeat: no-repeat;}
 
