@@ -1,0 +1,17 @@
+@charset "UTF-*";
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Catamaran:wght@500&display=swap');
+*{margin: 0px; padding: 0px;} Tira as margens da página.
+html, body{min-height: 100vh; background-color: aliceblue; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+:root{--corheader:blue; --cornav:rgba(0, 0, 255, 0.582); --cor3:green;} 
+
+
+header{text-align: center; background-color: var(--corheader); color: white; padding: 20px; }
+
+nav{text-align: center; background-color: var(--cornav);}
+nav>a{margin: 0px 20px 0px 20px;  color: white; text-decoration: none;}
+
+main{ }
+
+section{ }
+
+footer{text-align: center; background-color: var(--corheader); color: white; margin-top: 20px;}
