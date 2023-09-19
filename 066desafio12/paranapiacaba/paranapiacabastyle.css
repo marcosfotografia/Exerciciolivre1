@@ -23,7 +23,7 @@ section#img1{background-image: url('fotos/big/igrejabig.jpg'); background-size: 
 section#img2{background-image: url('fotos/big/casabig.jpg'); background-size: cover; background-repeat:no-repeat;}
 section#img3{background-image: url('fotos/big/trilhobig.jpg');background-size: cover;  background-repeat:no-repeat;}
 section#img4{background-image: url('fotos/pan.jpg');    background-size: cover; background-repeat: no-repeat;}
-section#img5{background-image: url('fotos/big/restaurantebig.jpg'); background-size: 100%; background-repeat: no-repeat;}
-section#img6{background-image: url('fotos/background002.jpg'); background-size: 100%; background-repeat: no-repeat;}
+section#img5{background-image: url('fotos/big/restaurantebig.jpg'); background-size: cover; background-repeat: no-repeat;}
+section#img6{background-image: url('fotos/background002.jpg'); background-size: cover; background-repeat: no-repeat;}
 
 footer{text-align: center; background-color: var(--cor1); color: white;}
