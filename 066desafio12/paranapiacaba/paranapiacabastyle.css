@@ -20,9 +20,9 @@ section.limpo{background-color: white; color: rgba(0, 0, 0, 0.979);}
 
 
 section#img1{background-image: url('fotos/big/igrejabig.jpg'); background-size: cover; background-repeat:no-repeat;background-position: top; }
-section#img2{background-image: url('fotos/big/casabig.jpg'); background-size: cover; background-repeat:no-repeat;}
-section#img3{background-image: url('fotos/big/trilhobig.jpg');background-size: cover;  background-repeat:no-repeat;}
-section#img4{background-image: url('fotos/big/placabig.jpg');    background-size: 100vw; background-repeat: no-repeat; background-position:  left;}
+section#img2{background-image: url('fotos/big/casabig.jpg');   background-size: cover; background-repeat:no-repeat;}
+section#img3{background-image: url('fotos/big/trilhobig.jpg'); background-size: cover; background-repeat:no-repeat;}
+section#img4{background-image: url('fotos/big/placabig.jpg');  background-size: cover; background-repeat: no-repeat; background-position:  left;}
 section#img5{background-image: url('fotos/big/restaurantebig.jpg'); background-size: cover; background-repeat: no-repeat;}
 section#img6{background-image: url('fotos/background002.jpg'); background-size: cover; background-repeat: no-repeat;}
 
