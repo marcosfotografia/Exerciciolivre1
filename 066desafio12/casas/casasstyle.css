@@ -24,4 +24,5 @@ section#img4{background-image: url('Imgs/imga.jpg'); background-size: cover;}
 section#img5{background-image: url('Imgs/400x400.jpg'); background-size: cover;}
 section#img6{background-image: url('Imgs/400x768.jpg'); background-size: cover;}
 section#img7{background-image: url('Imgs/1024x400.jpg'); background-size: cover;}
+section#img8{background-image: url('Imgs/1500\ x\ 1000.jpg'); background-size: cover;}
 footer{text-align: center; background-color: var(--corheader); color: white; margin-top: 20px;}
