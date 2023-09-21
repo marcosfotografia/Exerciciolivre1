@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Catamaran:wght@500&display=swap');
 :root{--cor1:#554700; --cor2:#d4c26a; --cor3:#554700f5; --fonte1: 'Alkatra', cursive; --fonte2: 'Catamaran', sans-serif;}
-*{margin: 0px; padding: opx;}
+*{margin: 0px; padding: 0px;}
 html, body{background-color: aquamarine; min-height: 100vh;}
 
 
