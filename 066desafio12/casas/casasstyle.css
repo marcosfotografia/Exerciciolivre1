@@ -1,7 +1,7 @@
 @charset "UTF-*";
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Catamaran:wght@500&display=swap');
 *{margin: 0px; padding: 0px;} /*Tira as margens da página.*/
-html, body{ min-height: 100vh; background-color: aliceblue; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+html, body{ min-height: 100vh; background-color: aliceblue; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; min-height: 100vh;}
 :root{--corheader:blue; --cornav:rgba(0, 0, 255, 0.582); --cor3:green;  --fonte1: 'Alkatra', cursive; --fonte2: 'Catamaran', sans-serif;} 
 
 
