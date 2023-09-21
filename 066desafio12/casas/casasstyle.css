@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Catamaran:wght@500&display=swap');
 *{margin: 0px; padding: 0px;} Tira as margens da página.
 html, body{min-height: 100vh; background-color: aliceblue; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-:root{--corheader:blue; --cornav:rgba(0, 0, 255, 0.582); --cor3:green;} 
+:root{--corheader:blue; --cornav:rgba(0, 0, 255, 0.582); --cor3:green;  --fonte1: 'Alkatra', cursive; --fonte2: 'Catamaran', sans-serif;} 
 
 
 header{text-align: center; background-color: var(--corheader); color: white; padding: 20px; }
@@ -12,10 +12,16 @@ nav>a{margin: 0px 20px 0px 20px;  color: white; text-decoration: none;}
 
 main{ }
 
-section{ }
+section{padding: 10vh 0px 10vh 10vh; line-height: 2em; font-family: var(--fonte1); font-size: 2vw;}
+section>p{ }
+section.fundo{background-attachment: fixed; box-shadow: inset 6px 6px 6px black;}
+section.fundo>p{background-color: rgba(0, 0, 0, 0.116);  color: white; padding: 90px 90px 90px 20px; text-shadow: 2px 2px 2px black;  width: 40vw;}
 
-section#img1{background-image: url('Imgs/img1.jpg'); background-size: cover;}
-section#img2{background-image: url('Imgs/img6.jpg'); background-size: cover;}
-section#img3{background-image: url('Imgs/img3.jpg'); background-size: cover;}
-
+section#img1{background-image: url('Imgs/imgd.jpg'); background-size: cover;}
+section#img2{background-image: url('Imgs/imgb.jpg'); background-size: cover;}
+section#img3{background-image: url('Imgs/imgc.jpg'); background-size: cover;}
+section#img4{background-image: url('Imgs/imga.jpg'); background-size: cover;}
+section#img5{background-image: url('Imgs/400x400.jpg'); background-size: cover;}
+section#img6{background-image: url('Imgs/400x768.jpg'); background-size: cover;}
+section#img7{background-image: url('Imgs/1024x400.jpg'); background-size: cover;}
 footer{text-align: center; background-color: var(--corheader); color: white; margin-top: 20px;}
