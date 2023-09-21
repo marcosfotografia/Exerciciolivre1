@@ -1,7 +1,7 @@
 @charset "UTF-*";
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Catamaran:wght@500&display=swap');
-*{margin: 10px; padding: 0px;} Tira as margens da página.
-html, body{min-height: 100vh; background-color: aliceblue; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+*{margin: 0px; padding: 0px;} Tira as margens da página.
+html, body{ min-height: 100vh; background-color: aliceblue; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 :root{--corheader:blue; --cornav:rgba(0, 0, 255, 0.582); --cor3:green;  --fonte1: 'Alkatra', cursive; --fonte2: 'Catamaran', sans-serif;} 
 
 
@@ -12,10 +12,11 @@ nav>a{margin: 0px 20px 0px 20px;  color: white; text-decoration: none;}
 
 main{ }
 
-section{padding: 20px ; line-height: 2em; font-family: var(--fonte1); font-size: 3vw;}
-section>p{ }
-section.fundo{background-attachment: fixed; box-shadow: inset 3px 3px 6px  black; border-radius: 20px;}
-section.fundo>p{background-color: rgba(0, 0, 0, 0.116);  color: white; padding: 10px 30px 30px 20px; text-shadow: 2px 2px 2px black;  width: 40vw; margin: 3px;}
+section{padding: 20px ; line-height: 2em; font-family: var(--fonte1); font-size: 2em; margin: 10px; }
+
+section.fundo{background-attachment: fixed; box-shadow: inset 3px 3px 6px  black; }
+section.fundo>p{background-color: rgba(0, 0, 0, 0.247);  color: white; padding: 30px 30px 30px 20px; 
+    text-shadow: 2px 2px 2px black;  width: 433px; margin: 3px;}
 
 section#img1{background-image: url('Imgs/img1a.jpg'); background-size: cover;}
 section#img2{background-image: url('Imgs/img2a.jpg'); background-size: cover;}
@@ -23,6 +24,7 @@ section#img3{background-image: url('Imgs/img3a.jpg'); background-size: cover;}
 section#img4{background-image: url('Imgs/img4a.jpg'); background-size: cover;}
 section#img5{background-image: url('Imgs/img5a.jpg'); background-size: cover;}
 section#img6{background-image: url('Imgs/img6a.jpg'); background-size: cover;}
+section#img6alongada{background-image: url('Imgs/img6alongada.jpg'); background-size: cover;}
 section#img7{background-image: url('Imgs/img7a.jpg'); background-size: cover;}
 section#img8{background-image: url('Imgs/img8a.jpg'); background-size: cover;}
 section#img8big{background-image: url('Imgs/img8abig.jpg'); background-size: cover;}
