@@ -14,7 +14,7 @@ main{ }
 
 section{padding: 10vh 0px 10vh 10vh; line-height: 2em; font-family: var(--fonte1); font-size: 3vw;}
 section>p{ }
-section.fundo{background-attachment: fixed; box-shadow: inset 6px 6px 6px black;}
+section.fundo{background-attachment: fixed; box-shadow: inset 6px 6px 6px  black; border-radius: 20px;}
 section.fundo>p{background-color: rgba(0, 0, 0, 0.116);  color: white; padding: 30px 30px 30px 20px; text-shadow: 2px 2px 2px black;  width: 40vw;}
 
 section#img1{background-image: url('Imgs/imgd.jpg'); background-size: cover;}
