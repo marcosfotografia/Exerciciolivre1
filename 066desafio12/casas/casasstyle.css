@@ -16,7 +16,7 @@ section{padding: 20px ; line-height: 2em; font-family: var(--fonte1); font-size:
 
 section.fundo{background-attachment: fixed; box-shadow: inset 3px 3px 6px  black; }
 section.fundo>p{background-color: rgba(0, 0, 0, 0.247);  color: white; padding: 30px 30px 30px 20px; 
-    text-shadow: 2px 2px 2px black;  width: 433px; margin: 3px;}
+    text-shadow: 2px 2px 2px black;  width: 433px; margin: 3px; border-radius: 20px;}
 
 section#img1{background-image: url('Imgs/img1a.jpg'); background-size: cover;}
 section#img2{background-image: url('Imgs/img2a.jpg'); background-size: cover;}
@@ -29,3 +29,5 @@ section#img7{background-image: url('Imgs/img7a.jpg'); background-size: cover;}
 section#img8{background-image: url('Imgs/img8a.jpg'); background-size: cover;}
 section#img8big{background-image: url('Imgs/img8abig.jpg'); background-size: cover;}
 footer{text-align: center; background-color: var(--corheader); color: white; margin-top: 20px;}
+
+
