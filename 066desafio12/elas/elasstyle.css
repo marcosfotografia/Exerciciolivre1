@@ -1,0 +1,4 @@
+@charset "UTF-8";
+*{margin: 0px; padding: 0px;}
+:root{--corheader:red; --cornav:blue; --cormain:green; --corsection:gray; --corfooter:yellow;
+}
