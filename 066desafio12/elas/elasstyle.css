@@ -3,7 +3,7 @@
 *{margin: 0px; padding: 0px;}
 :root{--corheader:rgb(204, 168, 69); --cornav:blue; --cormain:green; --corsection:gray; --corfooter:yellow;
     --fonte1: 'Alkatra', cursive; --fonte2: 'Catamaran', sans-serif;}
-html, body{background-color: rgb(248, 245, 250); color black; min-height: 100vh;}
+html, body{background-color: rgb(248, 245, 250); color: black; min-height: 100vh;}
 
 header{text-align: center; background-color: var(--corheader);padding: 20px 0px 10px 0px;}
 
