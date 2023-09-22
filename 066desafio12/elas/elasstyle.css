@@ -5,9 +5,9 @@
     --fonte1: 'Alkatra', cursive; --fonte2: 'Catamaran', sans-serif;}
 html, body{background-color: rgb(248, 245, 250); color black; min-height: 100vh;}
 
-header{text-align: center; background-color: var(--corheader);}
+header{text-align: center; background-color: var(--corheader);padding: 20px 0px 10px 0px;}
 
-nav{text-align: center; background-color: var(--cornav);}
+nav{text-align: center; background-color: var(--cornav); font-size: 2vw;}
 nav>a{color: white; padding: 40px;}
 
 main{}
