@@ -18,12 +18,12 @@ section.fundo>p{background-color: rgba(0, 0, 0, 0.116);  color: white; padding: 
 
 section.normal{background-color: white; color: black;}
 
-section#img1{background-image: url('Imgs/imgd.jpg'); background-size: cover;}
-section#img2{background-image: url('Imgs/imgb.jpg'); background-size: cover;}
-section#img3{background-image: url('Imgs/imgc.jpg'); background-size: cover;}
-section#img4{background-image: url('Imgs/imga.jpg'); background-size: cover;}
-section#img5{background-image: url('Imgs/400x400.jpg'); background-size: cover;}
-section#img6{background-image: url('Imgs/400x768.jpg'); background-size: cover;}
-section#img7{background-image: url('Imgs/1024x400.jpg'); background-size: cover;}
-section#img8{background-image: url('Imgs/1500\ x\ 1000.jpg'); background-size: cover;}
+section#img1{background-image: url('Imgs/img1.jpg'); background-size: cover;}
+section#img2{background-image: url('Imgs/img2.jpg'); background-size: cover;}
+section#img3{background-image: url('Imgs/img3.jpg'); background-size: cover;}
+section#img4{background-image: url('Imgs/img4.jpg'); background-size: cover;}
+section#img5{background-image: url('Imgs/img5.jpg'); background-size: cover;}
+section#img6{background-image: url('Imgs/img6.jpg'); background-size: cover;}
+section#img7{background-image: url('Imgs/img7.jpg'); background-size: cover;}
+section#img8{background-image: url('Imgs/img8.jpg'); background-size: cover;}
 footer{text-align: center; background-color: var(--corheader); color: white; margin-top: 20px;}
