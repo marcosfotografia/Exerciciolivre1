@@ -19,10 +19,10 @@ section>p{ }
 section.normal{ }
 section.normal>p{padding: 2px;}
 
-section.imagem{background-attachment: fixed; background-color: rgb(197, 15, 15); color: white; box-shadow: inset 6px 6px 6px black;}
+section.imagem{background-attachment: fixed; background-color: rgb(7, 7, 7); color: white; box-shadow: inset 6px 6px 6px black;}
 section.imagem>p{background-color: rgba(0, 0, 0, 0.349); color: white; width: 50vw; padding: 2vw 5vw 2vw 3vw; margin: -4px; text-shadow: 5px 5px 5px black;}
 
-section#img1{background-image: url('imgs/janisquad.jpg'); background-size:100%; background-repeat: no-repeat; background-position: left;}
+section#img1{background-image: url('imgs/janisquad.jpg'); background-size:cover; background-repeat: no-repeat; background-position: left;}
 section#img2{background-image: url('imgs/debie.jpg'); background-size: cover; background-repeat: no-repeat;}
 section#img3{background-image: url('imgs/joss.jpg');  background-size: cover; background-repeat: no-repeat;}
 section#img4{background-image: url('imgs/nina.jpg');  background-size: cover; background-repeat: no-repeat;}
