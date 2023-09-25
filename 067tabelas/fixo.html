@@ -14,7 +14,7 @@
         .num{text-align: right;}
         caption{font-size: 1em; font-weight: bold; padding: 10px; background-color: rgb(173, 169, 169);}
         tbody > tr:nth-child(2n){background-color: lightgray;} /* 2n = à cada duas */
-        thead > tr > th {position:sticky ; top: 0; background-color: blue;}
+        thead > tr > th {position:sticky ; top: -1px; background-color: blue;}
 
     </style>
 
@@ -126,6 +126,11 @@
 
 
     </Table>
+    <hr>
+    <h3>Cabeçalho fixo</h3>
+    <p> table{width: 300px; border-collapse: collapse; <mark>position: relative;</mark>}</p>
+    <p>thead > tr > th {position:sticky ; top: -1px; background-color: blue;}</p>
+    <p>Quando termina a tabela, o cabeçalho sobe e some</p>
     <hr>
     <p>Cabeçalho fixo deve ter:</p>
     <p>position : relative</p>
