@@ -8,7 +8,7 @@
 
     <style>
         body{font-family: Arial, Helvetica, sans-serif;}
-        table{width: 500px; border-collapse: collapse;}
+        table{width: 300px; border-collapse: collapse;}
         td, th{border: 1px solid black; padding: 10px;}/* Th é center por padrão */
         thead, tfoot{background-color: grey;  color: white;}
         .num{text-align: right;}
@@ -30,20 +30,20 @@
     <Table>
 
         <caption>
-            População das Unidades Federativas
+            População das Unidades Federativas CAPTION
         </caption>
 
         <thead>
             <tr>
-                <th scope="col">ESTADO</th> <!--SCOPE COL indica onde virão os dados. Colunas (Abaixo) ou linhas (em frente)-->
-                <th scope="col" style="width: 100px;">POPULAÇÃO</th>
+                <th scope="col">ESTADO   th</th> <!--SCOPE COL indica onde virão os dados. Colunas (Abaixo) ou linhas (em frente)-->
+                <th scope="col" style="width: 100px;">POPULAÇÃO  th</th>
             </tr>
         </thead>
 
         <tbody>
             <tr>
-                <td>São Paulo</td>
-                <td class="num">45 919 049</td>
+                <td>São Paulo td</td>
+                <td class="num">td 45 919 049</td>
             </tr>
   
             <tr>
@@ -116,7 +116,7 @@
 
         <tfoot>
             <tr>
-                <th scope="row">Total de Tabitantes</th> <!-- scope row indica onde virão os dados -->
+                <th scope="row">Total de Habitantes - foot-tr-th scope </th> <!-- scope row indica onde virão os dados -->
                 <td class="num"><strong>120 124 548</strong></td>
             </tr>
 
@@ -125,7 +125,11 @@
 
     </Table>
     <hr>
-
+<p>EFEITO ZEBRADO</p>
+<P>tbody>tr:nth-child(2n){background-color: lightgray;} /* 2n = à cada duas */</P>
+<P>tbody>tr:nth-child(ODD){background-color: lightgray;} /* odd = linhas ímpares */</P>
+<P>tbody>tr:nth-child(even){background-color: lightgray;} /* even = linhas pares */</P>
+    <hr>
     <p>&lt table &gt; toda a tabela dentro dessa tag que está dentro do body</p>
     <p>&lt caption &gt; para o texto antes da tabela (em cima)</p>
     <p>&lt thead &gt;   &lt; th scope="col"  &gt; =cabeçalho, linha um</p>
