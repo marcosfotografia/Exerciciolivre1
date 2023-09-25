@@ -12,6 +12,7 @@
         td, th{border: 1px solid black; padding: 10px;}/* Th é center por padrão */
         thead, tfoot{background-color: grey;  color: white;}
         .num{text-align: right;}
+        caption{font-size: 1em; font-weight: bold; padding: 10px; background-color: rgb(173, 169, 169);}
 
     </style>
 
@@ -23,13 +24,18 @@
     </nav>
 
     <h1>USO DE TABELAS GRANDES</h1>
-    <!--Anatomia para tabelas grandes com THEAD, TBODY E TFOOT . TODOS PODEM TER TR, TD E TH-->
+    <!--Anatomia para tabelas grandes com CAPTION, THEAD, TBODY E TFOOT . TODOS PODEM TER TR, TD E TH-->
 
     <Table>
+
+        <caption>
+            População das Unidades Federativas
+        </caption>
+
         <thead>
             <tr>
-                <th>ESTADO</th>
-                <th>POPULAÇÃO</th>
+                <th scope="col">ESTADO</th> <!--SCOPE COL indica onde virão os dados. Colunas (Abaixo) ou linhas (em frente)-->
+                <th scope="col" style="width: 100px;">POPULAÇÃO</th>
             </tr>
         </thead>
 
@@ -109,7 +115,7 @@
 
         <tfoot>
             <tr>
-                <th>Total de Tabitantes</th>
+                <th scope="row">Total de Tabitantes</th> <!-- scope row indica onde virão os dados -->
                 <td class="num"><strong>120 124 548</strong></td>
             </tr>
 
@@ -117,6 +123,13 @@
 
 
     </Table>
+    <hr>
+
+    <p>'table' toda a tabela dentro dessa tag que está dentro do body</p>
+    <p>'caption' para o texto antes da tabela (em cima)</p>
+    <p>'thead' 'tr' 'th' 'scope'="col" =cabeçalho, linha um</p>
+    <p>'tbody' 'tr' 'td' = Dados em cada célula.</p>
+    <p>'tfoot' 'tr' 'th' 'scope'</p>
     
 </body>
 </html>
