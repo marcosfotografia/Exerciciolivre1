@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../cam marrom.ico" type="image/x-icon">
+    <title>67 Fixo</title>
+
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif;}
+        table{width: 300px; border-collapse: collapse; position: relative;}
+        td, th{border: 1px solid black; padding: 10px;}/* Th é center por padrão */
+        thead, tfoot{background-color: grey;  color: white;}
+        .num{text-align: right;}
+        caption{font-size: 1em; font-weight: bold; padding: 10px; background-color: rgb(173, 169, 169);}
+        tbody > tr:nth-child(2n){background-color: lightgray;} /* 2n = à cada duas */
+        thead > tr > th {position:sticky ; top: 0; background-color: blue;}
+
+    </style>
+
+</head>
+<body>
+    <nav>
+        <a href="tabelas/tabelas.html" target="_self" rel="prev">TABELAS</a>
+        <a href=".../../../index.html" target="_self" rel="prev">INDEX</a>
+    </nav>
+
+    <h1>USO DE TABELAS GRANDES</h1>
+    <h3>Cabeçalho Fixo</h3>
+    <!--Anatomia para tabelas grandes com CAPTION, THEAD, TBODY E TFOOT . TODOS PODEM TER TR, TD E TH-->
+
+    <Table>
+
+        <caption>
+            População das Unidades Federativas CAPTION
+        </caption>
+
+        <thead>
+            <tr>
+                <th scope="col">ESTADO   th</th> <!--SCOPE COL indica onde virão os dados. Colunas (Abaixo) ou linhas (em frente)-->
+                <th scope="col" style="width: 100px;">POPULAÇÃO  th</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo td</td>
+                <td class="num">td 45 919 049</td>
+            </tr>
+  
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+ 
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 791 </td>
+            </tr>
+
+
+            <tr>
+                <td>Bahia </td>
+                <td class="num">14 973 123 </td>
+            </tr>
+            
+            <tr>
+                <td>Paraná </td>
+                <td class="num">11 439 998 </td>
+            </tr>
+            
+            <tr>
+                <td>Rio Grande do Sul </td>
+                <td class="num">11 377 239 </td>
+            </tr>
+            
+            <tr>
+                <td>Pernambuco </td>
+                <td class="num">9 557 0071 </td>
+            </tr>
+            
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9 132 983 </td>
+            </tr>
+            
+            <tr>
+                <td>Pará </td>
+                <td class="num">8 293 921</td>
+            </tr>
+            
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7 164 789</td>
+            </tr>
+
+            
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">7 075 181</td>
+            </tr>
+            
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7 018 354 </td>
+            </tr>
+
+            
+            <tr>
+                <td>Amazonas</td>
+                <td  class="num">4 144 597</td>
+            </tr>
+
+
+
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes - foot-tr-th scope </th> <!-- scope row indica onde virão os dados -->
+                <td class="num"><strong>120 124 548</strong></td>
+            </tr>
+
+        </tfoot>
+
+
+    </Table>
+    <hr>
+    <p>Cabeçalho fixo deve ter:</p>
+    <p>position : relative</p>
+    <hr>
+<p>EFEITO ZEBRADO</p>
+<P>tbody>tr:nth-child(2n){background-color: lightgray;} /* 2n = à cada duas */</P>
+<P>tbody>tr:nth-child(ODD){background-color: lightgray;} /* odd = linhas ímpares */</P>
+<P>tbody>tr:nth-child(even){background-color: lightgray;} /* even = linhas pares */</P>
+    <hr>
+    <p>&lt table &gt; toda a tabela dentro dessa tag que está dentro do body</p>
+    <p>&lt caption &gt; para o texto antes da tabela (em cima)</p>
+    <p>&lt thead &gt;   &lt; th scope="col"  &gt; =cabeçalho, linha um</p>
+    <p>&lt tbody &gt;  &lt;td &gt; = Dados em cada célula.</p>
+    <p>&lt tfoot &gt;  &lt; th  scope="row" &gt;</p>
+    
+</body>
+</html>
