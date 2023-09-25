@@ -10,7 +10,7 @@ header{text-align: center;  background-color:var(--cordobox);  line-height:1px; 
 
 nav{background-color:var(--cordobox) ; text-align: center; 
 margin-top: 3PX;} /*Espaço entre o Header e o Nav */
-nav>a{margin-right: 20px;}  /*Espaço entre os links*/
+nav>a{margin-right: 10px;}  /*Espaço entre os links*/
 
 main{background-color:var(--cordobox) ;
 margin: 5px 60px 25px 60px;  /*Espaço em volta da caixa do Main - Diminui o tamanho do box Main*/
