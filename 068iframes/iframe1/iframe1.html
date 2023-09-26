@@ -7,6 +7,7 @@
     <title>68 i-Frame-1</title>
     <style>
         nav>a{margin-right: 30px;}
+        span>iframe{width: 500px; height: 600px; border: 3px solid red;}
     </style>
 </head>
 <body>
@@ -21,12 +22,28 @@
         para estudar e entender .
     </p>
     <hr>
-    <p>Bata colocar:</p>
+    <p>Basta colocar:</p>
     <p>
         &lt; iframe src="https://marcosfotografia.github.io/Exerciciolivre1/" frameborder="0"&gt; &lt;/iframe&gt;
     </p>
     <P>Basta digitar  iframe+enter que a tag já é criada</P>
-    <p>frameborder= defini a espessura da borda</p>
+    <p>frameborder= define   com ou sem da borda. É apenas binário. 0=sem e diferente de 0, é com borda.</p>
+    <p>No espaço entrea as tags, pode se colocar o link para o site abrir em uma aba, caso o navegador não aceite iframe.</p>
+    <p>Por padrão o iframe mede 300px x 150px</p>
+    <p>A configuração no CSS (ou style) predomina sobre a configuração na  tag, in line.</p>
+    <p>No Css pode ter configuração, por exemplo:</p>
+    <p>{iframe:width:400px; height:600px; border: 1px solid red;}</p>
+    <p>O Parâmetro SCOLLING: auto, yes ou no, não está funcionando. Define ter ou não a barra de roalgem horizontl.</p>
+    <hr>
+    <span><iframe src="https://www3.santoandre.sp.gov.br/turismosantoandre/vila-ferroviaria-paranapiacaba/" frameborder="0" scolling="no"></iframe></span>
+    <br>
+    <hr>
+    <p> Abaixo, um iframe com link do Google que não abre por ter proteção</p>
+    <iframe src="www.google.com" frameborder="0">dftghjiko</iframe>
+    <br><hr><br>
+    <p>Abaixo, um ifram para o site local</p>
+    <span><iframe src="../../064imgsdefundo/fundos.html" frameborder="0">Site somente no pc</iframe></span>
+
 
     
 </body>
