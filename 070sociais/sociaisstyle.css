@@ -13,4 +13,4 @@ section#telefone{position:absolute;
     width: 311px; 
     height: 627px;
     background-color: blue;
-    background: url('imagens/frame-iphone.png'); mask-repeat: no-repeat;}
+    background: url('imagens/frame-iphone.png') no-repeat;}
