@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>68 JavaScript</title>
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif; background-color: aquamarine;}
+        nav>a{margin-right: 40px;}
+        iframe{display: block; margin: auto;   height: 200px; border: 2px solid black;}
+        p{text-indent:30px; text-align: justify;}
+        section#cor1{background-color: yellowgreen;}
+        section#cor2{background-color: rgb(230, 210, 97);}
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="../iframes.html" target="_self" rel="prev">IFRAMES</a>
+        <a href="../../index.html" target="_self" rel="prev">INDEX</a>
+        <a href="javasc.html" target="_self" rel="prev">Formulário do Iframe Java Script</a>
+        
+    </nav> <hr>
+    <main>
+        <h1>Exemplo de site com iframe e Java script</h1>
+        <h3>Clicando no link, aparece escrito uma linha com a frase. </h3>
+        <hr>
+        <section id="cor1">
+        <p>Esse Iframe aceita tudo. Formulário e leitura de infrmações. Nada está bloqueado</p>
+
+        <iframe src="javasc.html" frameborder="1" >MSG não aceita</iframe>
+        <br>
+        </section>
+
+        <hr>
+
+        <section id="cor2">
+        <h3>Tem bloqueio</h3>
+        <iframe src="javasc.html" frameborder="1"  sandbox="sandbox">MSG não aceita</iframe>
+        <p>Sandbox="sandbox" bloqueia tudo. </p>
+        <hr>
+        </section>
+
+
+        <p>sandbox: "allow alguma coisa"</p>
+        <p>referrerpolicy="no-reffer" bloquei saida de informações pelo site dentro do iframe></p>
+        <hr>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat officia nulla tenetur quo velit quod nisi labore eos dolor. Cupiditate rem tenetur quisquam. Veniam dolore sed dolores molestiae, deserunt ab.</p>
+    </main>
+</body>
+</html>
