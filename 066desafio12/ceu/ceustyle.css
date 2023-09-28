@@ -13,7 +13,7 @@ nav>a{margin: 0px 20px 0px 20px;  color: white; text-decoration: none;}
 main{ }
 
 section{padding: 5vh 5vh 5vh 1vh ; line-height: 2em; font-family: var(--fonte1); font-size: 3vw;} /*Espaço em volta da caixa de texto p - Fonte size em muda o tamanho do text box, com vw é o texto que se dimensiona*/
-section.fundo{background-attachment: fixed; box-shadow: inset 3px 3px 6px  black;}
+section.fundo{background-attachment: fixed; box-shadow: inset 3px 3px 6px  black; border-radius: 20px;}
 section.fundo>p{background-color: rgba(0, 0, 0, 0.116);  color: white; padding: 10px 30px 10px 20px; text-shadow: 2px 2px 2px black;  width: 40vw; margin: 3px; display: inline-block;}
 
 section.normal{background-color: white; color: black;}
