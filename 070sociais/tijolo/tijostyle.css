@@ -6,9 +6,9 @@ body{background-image:url('imagens/fundo.jpg'); background-size:cover; backgroun
 
 main{height: 100vh; position: relative; }
 
-section#tv {position: absolute; top: 50%;  left: 50%; transform: translate(-70%, -50%);
-            width: 950px;   height: 400px;
-            background: url('imagens/tv.png')  no-repeat sienna ;
+section#tv {position: absolute; top: 50%;  left: 50%; transform: translate(-50%, -50%);
+            width: 650px;   height: 600px;
+            background: url('imagens/tv.png') ; background-size: 100%; background-repeat: no-repeat;
 }
 
 iframe#tela{position: relative; top: 240px; left: 130px; width: 320px; height: 220px; border-radius: 20px;}
@@ -20,10 +20,3 @@ section#bichos{text-align: right;}
 section#bichos img:hover{transform: translate(-10px, -10px); 
     box-shadow: 3px 5px 11px 5px rgb(78, 71, 71);
     transition: transform 0.5s; border: 1s;}
-
-/*section#redes-sociais img:hover{
-    border: 2px solid white;
-    transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px black;
-    transition: transform 0.5s, border 1s;}
-    */
