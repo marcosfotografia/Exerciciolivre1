@@ -6,14 +6,14 @@ body{background-image:url('imagens/fundo.jpg'); background-size:cover; backgroun
 
 main{height: 100vh; position: relative; }
 
-section#tv {position: absolute; top: 50%;  left: 50%; transform: translate(-50%, -50%);
-            width: 650px;   height: 600px;
-            background: url('imagens/tv.png') ; background-size: 100%; background-repeat: no-repeat;
+section#tv {position: absolute; top: 50%;  left: 50%; transform: translate(-70%, -50%);
+            width: 950px;   height: 400px;
+            background: url('imagens/tv.png')  no-repeat sienna ;
 }
 
 iframe#tela{position: relative; top: 240px; left: 130px; width: 320px; height: 220px; border-radius: 20px;}
 
-section#bichos img{width: 50px; margin: 20px; border-radius: 50%; box-shadow: 2px 2px 2px red; box-sizing: border-box;}
+section#bichos img{width: 50px; margin: 10px; border-radius: 50%; box-shadow: 2px 2px 2px red; box-sizing: border-box;}
 
 section#bichos{text-align: right;}
 
