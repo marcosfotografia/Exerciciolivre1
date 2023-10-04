@@ -8,13 +8,20 @@
         body{background: url('../fundos/flor1280x850.jpg') no-repeat ; background-size: cover;}
 
         section#mostrador{background: url('imgs-objetos/monitorb.png') no-repeat; position: absolute; 
-                background-color: aquamarine;
+                /*background-color: aquamarine;*/
                 top: 50%; left: 50%; transform: translate(-50%, -40%);
                 width: 600px; height: 500px;
                 background-size: 600px;
         }
+
+        iframe#frame{position: relative; top: 80px; left: 48px; 
+            width: 500px; height: 350px;}
+
         section#botoes img{border-radius: 50%; margin: 10px; } 
         section#botoes {text-align: center;}
+
+        section#botoes-bichos img{border-radius: 50%; margin: 10px; } 
+        section#botoes-bichos{text-align: right;}
 
     </style>
 
@@ -33,9 +40,17 @@
 
         
         <section id="mostrador">
-            <iframe src="" name="tela" id="frame" frameborder="0"></iframe>
-
+            <iframe src="paginas/girafa.html" name="xtela" id="frame" frameborder="0"></iframe>
         </section>
+
+        
+        <section id="botoes-bichos">
+            <a href="paginas/coelho.html" target="xtela"><img src="paginas/coelho.png" alt=""></a><br>
+            <a href="paginas/girafa.html" target="xtela"><img src="paginas/girafa.png" alt=""></a><br>
+            <a href="paginas/gorila.html" target="xtela"><img src="paginas/gorila.png" alt=""></a><br>
+            <a href="paginas/horse.html"  target="xtela"><img src="paginas/horse.png" alt=""></a><br>
+        </section>
+
     </main>
     
 </body>
