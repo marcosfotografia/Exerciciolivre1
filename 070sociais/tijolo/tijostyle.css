@@ -13,7 +13,8 @@ section#tv {position: absolute; top: 50%;  left: 50%; transform: translate(-50%,
 
 iframe#tela{position: relative; top: 240px; left: 130px; width: 320px; height: 220px; border-radius: 20px;}
 
-section#bichos img{width: 50px; margin: 10px; border-radius: 50%; box-shadow: 2px 2px 2px red; box-sizing: border-box;}
+section#bichos img{width: 50px; margin: 10px; border-radius: 50%; box-shadow: 2px 2px 2px red; 
+                    box-sizing: border-box;}
 
 section#bichos{text-align: right;}
 
