@@ -26,8 +26,8 @@ section.imagem>p{background-color: rgba(0, 0, 0, 0.349); color: white; width: 50
      padding: 2vw 5vw 2vw 3vw; margin: -4px; text-shadow: 5px 5px 5px black;}
 
 section#img1{background-image: url('imgs/janisquad.jpg'); background-size:100%; background-repeat: no-repeat;}
-section#img2{background-image: url('imgs/debie.jpg'); background-size: cover; background-repeat: no-repeat;}
-section#img3{background-image: url('imgs/joss.jpg');  background-size: cover; background-repeat: no-repeat;}
-section#img4{background-image: url('imgs/nina.jpg');  background-size: cover; background-repeat: no-repeat;}
+section#img2{background-image: url('imgs/debie.jpg'); background-size: 100%; background-repeat: no-repeat;}
+section#img3{background-image: url('imgs/joss.jpg');  background-size: 100%; background-repeat: no-repeat;}
+section#img4{background-image: url('imgs/nina.jpg');  background-size: 100%; background-repeat: no-repeat;}
 
 footer{text-align: center; background-color:blue; color: aliceblue;}
