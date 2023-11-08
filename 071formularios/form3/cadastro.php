@@ -1,1 +1,1 @@
-Os dados foram enviados, para esse php mas é apenas uma simulação.
+Os dados foram enviados, para esse php mas é apenas uma simulação. Só.
