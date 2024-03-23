@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* CORES */
+:root{--corbody:#E0fBff; --corheader:#94D6FF;  --cornav:#94d6ff;  --cormain:#6AB1DE;  --corfooter:#6ab1de;}
+
+body{background-color: var(--corbody); }
+
+header{text-align: center;  background-color: var(--corheader); }
+
+nav{background-color: var(--cornav);  }
+nav>a{margin-right: 20px;}  /*Espaço entre os links*/
+
+main{background-color: var(--cormain);}
+
+section{ }
+
+article{ }
+
+footer{background-color: var(--corfooter);}
+
+.centraliza{text-align: center;}
+
+
