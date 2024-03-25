@@ -1,7 +1,9 @@
 *{margin: 5px;}
-body{ background-color: rgb(204, 199, 187); color: rgb(73, 20, 20) ; font-family: Arial, Helvetica, sans-serif; }
+body{ background-color: rgb(204, 199, 187); color: rgb(73, 20, 20) ; 
+    font-family: Arial, Helvetica, sans-serif; }
 
-header{text-align: center;  background-color:darkgoldenrod ; padding: 20px;  border-radius: 20px 20px 0px 0px;}
+header{text-align: center;  background-color:darkgoldenrod ; padding: 20px;  
+    border-radius: 20px 20px 0px 0px;}
 
 nav{background-color:darkgoldenrod
     ; text-align: center;  border-radius: 20px; border-radius: 0px 0px  20px 20px;}
