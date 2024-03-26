@@ -10,7 +10,7 @@ header{text-align: center;  background-color: var(--corheader); }
 nav{background-color: var(--cornav);  }
 nav>a{margin-right: 20px;}  /*Espaço entre os links*/
 
-main{background-color: var(--cormain);}
+main{background-color: var(--cormain);padding: 10px;}
 
 section{ }
 
