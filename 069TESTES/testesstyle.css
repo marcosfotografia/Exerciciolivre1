@@ -1,4 +1,6 @@
+
 *{margin: 5px;}
+
 body{ background-color: rgb(204, 199, 187); color: rgb(73, 20, 20) ; 
     font-family: Arial, Helvetica, sans-serif; }
 
@@ -9,10 +11,12 @@ nav{background-color:darkgoldenrod
     ; text-align: center;  border-radius: 20px; border-radius: 0px 0px  20px 20px;}
 nav>a{margin-right: 30px; text-decoration: none;}
 
-main{height: 75vh; padding: 30px; background-color: darkgoldenrod; margin: 5px 40px 25px 40px; border-radius: 20px;
+/*main{height: 75vh; padding: 30px; background-color: darkgoldenrod; margin: 5px 40px 25px 40px; 
+    border-radius: 20px;}  */
 
+    main{padding: 30px; background-color: darkgoldenrod; 
+    border-radius: 20px; margin: 5px 40px 25px 40px; text-align: left;}  
 
-}
 ol{columns: 2;}
 
 footer{background-color: rgb(136, 100, 11); text-align: center;}

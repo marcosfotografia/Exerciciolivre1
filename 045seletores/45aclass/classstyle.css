@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{background-color: blanchedalmond;}
+
+header{background-color: black; color: bisque; border-radius: 20px 20px 0px 0px; padding: 1px;}
+
+nav{text-align: center; background-color: rgb(205, 4, 4) ; color: azure; margin:  2px 0px 2px 0px; 
+    padding: 1px;}
+nav>a{padding: 30px;}
+
+main{background-color: rgb(5, 5, 5); border-radius: 0px 0px 20px 20px; color: rgb(215, 223, 223); 
+    padding: 10px;}
+
+section{ }
+
+article{ }
+
+footer{background-color: rgb(207, 4, 4); margin: 20px 0px ; border-radius: 0px 0px 20px 20px;}
+
+.centralizar{text-align: center;}
+
