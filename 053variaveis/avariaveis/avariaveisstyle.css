@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* CORES NAS VARIÁVEIS para as fontes em IDs*/
+:root{--cor1:#aa0000; --cor2:blue; --cor3:green; --cor4:brown;}
+:root{--cor5:rgb(224, 212, 170); --cor6:rgb(132, 132, 148); --cor7:rgb(209, 228, 202); --cor8:rgb(202, 176, 176);
+}
+
+#cora{color: var(--cor1);}
+#corb{color: var(--cor2);}
+#corc{color: var(--cor3);}
+#cord{color: var(--cor4);}
+
+/* CORES NAS VARIÁVEIS para os backgrounds em classes*/
+.core{background-color: var(--cor5);}
+.corf{background-color: var(--cor6);}
+.corg{background-color: var(--cor7);}
+.corh{background-color: var(--cor8);}
+
+
+body{ }
+
+header{ }
+
+h4{text-align: center;}
+
+nav{ }
+nav>a{padding: 20px;}
+
+main{ }
+
+section{ }
+
+article{ padding: 10px; border-radius: 20px;}
+
+footer{ }
+
+.centra{text-align: center;}
+
+article>p{text-indent: 30px;}
+
+
