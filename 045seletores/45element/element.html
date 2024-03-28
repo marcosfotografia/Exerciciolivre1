@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../Canon.ico" type="image/x-icon">
+    <title>45D Pseudo element</title>
+    <link rel="stylesheet" href="elementstyle.css">
+</head>
+
+<body>
+    <header>
+        <h2>TESTE PSEUDO ELEMENT</h2>
+        <H3>EXEMPLOS E TESTES</H3>
+    </header>
+
+    <nav>
+        <a href="../../index.html" target="_self" rel="prev">Index</a>
+        <a href="../045seletores.html" target="_self" rel="prev">Volta</a>
+    </nav>
+    
+    <main>
+        <section>
+            <article>
+                <p>Um pseudo-elemento CSS é uma palavra-chave adicionada a um seletor que permite que você estilize uma parte específica do elemento selecionado. Por exemplo, o pseudo-elemento ::first-line aplica o estilo apenas na primeira linha de um parágrafo.</p>
+            </article> <hr>
+
+            <article>
+                <p>SINTAXE</p>
+                <P>seletor::pseudo-elemento {
+                    propriedade: valor;
+                  }</P>
+            </article><hr>
+        </section>
+
+        <section>
+            <p>/* A primeira linha de todo elemento fica maiúscula e azul.  */</p>
+                p::first-line {
+                  color: blue;
+                  text-transform: uppercase;
+                }
+                <hr>
+        </section>
+
+        <article>
+            Primeira letra de cada ARTICLE na cor red.Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatibus cumque amet est voluptates eaque, officiis ipsum tempore asperiores! Repellendus facere adipisci cumque dolores distinctio nemo odio ad illo sint.</p>
+        </article><hr>
+
+
+
+        <section>
+           <p>Nota: Como regra, os dois pontos devem ser usados duas vezes (::) </p>
+        </section>
+
+        <section>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-elements" target="_blank">
+                Site sobre Pseudo elementos
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>RODAPÉ = FOOTER</p>
+    </footer>
+</body>
+</html>

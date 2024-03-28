@@ -3,8 +3,12 @@
 body{ } 
 
 header{ background-color: red; border-radius:  20px 20px 0px 0px; padding: 15px; margin-bottom: 1px;}
+.centro{text-align: center;} /*Class*/
+#meio{text-align: center;}
 
-nav{background-color: greenyellow;  padding: 5px; margin: 5px 0px 5px 0px;}
+nav{background-color: greenyellow;  padding: 5px; margin: 5px 0px 5px 0px; margin: ;}
+nav>a{padding: 30px;}
+body>nav{text-align: center;}
 
 main{ background-color: red; border-radius: 0px 0px 20px 20px; padding: 20px;}
 
@@ -13,3 +17,9 @@ section{ }
 article{ }
 
 footer{background-color: greenyellow; border-radius: 20px;}
+footer>p{text-align: center;}
+
+div:hover{background-color: yellow;}
+
+img:hover{width: 300px;} /*A imagem muda de width ao passar o mouse */
+

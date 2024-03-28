@@ -11,7 +11,7 @@
 <body>
     <header>
         <h2>TESTE CHILD</h2>
-        <H3>Todas as tags h2 da Header estão centralizando</H3>
+        <H3>Todas as tags h2 da Header estão centralizando, como  essa acima.</H3>
     </header>
 
     <nav>
@@ -22,13 +22,20 @@
     <main>
         <section>
             <article>
-                <p>Atribui uma propriedade à tag.</p>
-                <p>Por exemplo: Centraliza todas as tags &#60;p&#62; da Header</p>
-                <h2>Somente as tags h2 da Header estão centralizando</h2>
+                <h2>Somente as tags &#60;p&#62;, filhas da Header, estão centralizando.</h2>
+                <p>Atribui uma propriedade à tag dentro de um box.</p>
+                <p>Por exemplo: Centraliza todas as tags &#60;p&#62; da Header. 
+                    &emsp; No CSS ==> &emsp; header&#62;p{text-align:center;}</p>
+                    <p>Quando usa a tag &#60;p&#62; dentro da Header, já fica centralizado.</p>
+                
+            </article>
+
+            <article><hr>
+                <h2>Somente as tags &#60;h2&#62; , filhas da Header, estão centralizando.</h2>
             </article>
 
             <article>
-                <p>No CSS ==> &emsp; header &#62; h2{text-align: center;}</p>
+                <p>No CSS ==> &emsp; header &#62; h2&#123;text-align: center;&#125;</p>
             </article>
         </section>
 
@@ -37,6 +44,7 @@
         </section>
 
         <section>
+            <hr>
             <p>Se não declarar o pai (header no ex), todas as, h2, ficam com a propriedade.</p>
         </section>
     </main>
