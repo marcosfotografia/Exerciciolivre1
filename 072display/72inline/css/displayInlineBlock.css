@@ -1,13 +1,9 @@
-    .example {
-        color: #FFF;
-        text-align: center;
-    }
-
+.example {
+    color: #FFF;
+}
     .example-item {
         width: 33.333%;
         height: 150px;
-        display: block;
-        width: 33.333%; height: 150px;
     }
     .example-item_first {
         background-color: #FAA116;
@@ -18,7 +14,3 @@
     .example-item_third {
         background-color: #3B97D3;
     }
-
-    li{}
-
-footer{text-align: center; background-color: aquamarine;}

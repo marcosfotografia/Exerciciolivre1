@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../cam marrom.ico" type="image/x-icon">
+    <title>072 In Line</title>
+    <link rel="stylesheet" href="css/displaystyle.css">  <!--Geral da pg template -->
+    <link rel="stylesheet" href="css/reset.css"> <!--Limpa os parametros, inclusive o hr -->
+    <link rel="stylesheet" href="css/displayInlineBlock.css"> <!--Configura os displays -->
+</head>
+<body>
+
+    <header>
+        <h2>DISPLAY IN LINE</h2>
+        <h5>SOMENTE COM "IN LINE"</h5>
+
+    </header>
+
+    <nav>
+        <a href="../../../index.html" target="_self" rel="next">Index</a>
+        <a href="../../display.html" target="_self" rel="next">Displays</a>
+        <a href="../../72block/72block.html" target="_self" rel="next">Block</a>
+        <a href="../../72inlineblock.html" target="_self" rel="next">In Line Block</a>        
+    </nav>
+
+    <nav style="background-color: burlywood;">
+        <a href="https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-o-display-inline-4ccb7b77371d" target="_blank" >
+            Site explicando
+        </a>
+        <a href="../72inline.html" tabindex="section">Voltar In line</a>
+    </nav>
+
+    <main>
+
+    <section>
+        <article>
+            <h3>ALINHA MAS PERDE OS "WIDTHs" E "HEIGHTs"</h3>
+            <ul class="example">
+                <li class="example-item example-item_first">Primeiro</li>
+                <li class="example-item example-item_second">Segundo</li>
+                <li class="example-item example-item_third">Terceiro</li>
+            </ul>
+        </article>
+        
+        <br><p>________________________________________________________________________________________________________</p><br>
+        
+        <article>
+            <h3>Temos acima:</h3>
+            <p>Temos 3 tags &#60;li&#62; dentro de uma &#60;ul&#62;. Todas &#60;i&#62; vão ter 150px de altura (height: 150px) e a largura vai ser de 33.333% (width: 33.333%). Ah! A primeira &#60;li&#62; será da cor laranja (background-color: #FAA116), a segunda da cor verde (background-color: #57C7C3) e a terceira, e última, da cor azul (background-color: #3B97D3).</p>
+        
+        </article>
+                
+        <br><p>________________________________________________________________________________________________________</p><br>
+       
+    </section>
+
+    <section>
+        <article>
+            <h3>Para por todos os 3 &#60;li&#62; na mesma linha</h3>
+            <p>Vamos implementar o display: inline; para todas as tags &#60;li&#62; no nosso arquivo</p>
+        </article>
+                
+        <br><p>________________________________________________________________________________________________________</p><br>
+       
+
+        <article>
+            <h3>Código</h3>
+            <p>display: inline; </p>
+             <p>Só adicionamos essa linha acima no css para todas as 3 &#60;li&#62; </p>
+
+    </section>
+
+    <br><p>________________________________________________________________________________________________________</p><br>
+       
+    <section>
+        <h1>Sem espaço entre os elementos</h1><br>
+        <ul class="example">
+            <li class="example-item example-item_first">Primeiro</li><!--
+         --><li class="example-item example-item_second">Segundo</li><!--
+         --><li class="example-item example-item_third">Terceiro</li>
+          </ul>
+
+    </section>
+
+    <br>
+    <section>
+        <p>No final das &#60;li&#62;'s, um enter cria espaço.</p>
+        <p>Para não criar uma linha unica, gigante, colocar um comentario.</p>
+        <img src="semespaços.PNG" alt="">
+    </section>
+
+    <br><p>________________________________________________________________________________________________________</p><br>
+       
+    <section>
+        <h1>Sem espaço entre os elementos  e centralizado</h1> <br>
+        <ul class="example" style="text-align: center;">
+            <li class="example-item example-item_first">Primeiro</li><!--
+         --><li class="example-item example-item_second">Segundo</li><!--
+         --><li class="example-item example-item_third">Terceiro</li>
+          </ul>
+
+    </section>
+
+    <br>
+
+
+  
+    <section>
+
+        <img src="centralizado.PNG" alt="">
+    </section>
+
+    </main>
+
+    <footer> ------------------ RODAPÉ ------------------</footer>
+
+
+    
+</body>
+</html>
