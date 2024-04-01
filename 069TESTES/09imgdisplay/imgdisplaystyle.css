@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* CORES */
+
+
+body{background-color: #96d38d; }
+
+header{text-align: center;  background-color:#1E6912 ;  line-height:1px; padding: 1px; color: #eceacd; }
+
+nav{background-color:#3C8D2F ;  text-align: center; }
+nav>a{margin-right: 20px; margin-left: 20px;}  /*Espaço entre os links*/
+
+main{background-color:#64B058 ;
+margin: 20px;  /*Espaço em volta da caixa do Main - Diminui o tamanho do box Main*/
+padding: 20px;  /* Espaço em volta do texto  */
+}
+
+section{ }
+
+article{ }
+article>p{text-indent: 30px;}   /* dois dedos */
+
+footer{background-color:#3C8D2F; text-align: center;}
+
+
+
+
+
+

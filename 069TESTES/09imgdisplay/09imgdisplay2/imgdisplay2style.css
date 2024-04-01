@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* CORES */
+
+
+body{background-color: #FFEAA4; }
+
+header{text-align: center;  background-color:#64FF00 ;  line-height:1px; padding: 1px; }
+
+nav{background-color:#C7002E;  text-align: center; }
+nav>a{margin-right: 20px; margin-left: 20px;}  /*Espaço entre os links*/
+
+main{background-color:#FFC300 ;
+margin: 20px;  /*Espaço em volta da caixa do Main - Diminui o tamanho do box Main*/
+padding: 20px;  /* Espaço em volta do texto  */
+}
+
+section{ }
+
+article{ }
+article>p{text-indent: 30px;}   /* dois dedos */
+
+footer{background-color:#ADA117 ; text-align: center;}
+
+
+
+
+
+
