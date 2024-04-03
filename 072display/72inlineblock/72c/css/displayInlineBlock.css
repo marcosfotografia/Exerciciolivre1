@@ -4,8 +4,9 @@
     .example-item {
         width: 25%;
         height: 150px;
-        display: inline; /* LINHA ADICIONADA*/
+        display: inline-block; /*Alteração feita*/
     }
+
     .example-item_first {
         background-color: #FAA116;
     }
