@@ -1,9 +1,16 @@
 .example {
     color: #FFF;
+    text-align: justify;
 }
+
+.example::after{/*Adicionamos essse seletor */
+content:  'Ω…¬˚∆ø¥åß';
+color: red;}
+
     .example-item {
         width: 25%;
         height: 150px;
+        display:inline-block
     }
     .example-item_first {
         background-color: #FAA116;

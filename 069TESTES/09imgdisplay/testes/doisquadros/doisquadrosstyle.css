@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+:root{--cor1:#0000FF; --cor2:#fff367; --cor3:#FDEF44; --cor4:#F0DE15; --cor5:#63B042;}
+FFF692
+body{background-color: var(--cor2); }
+
+header{text-align: center; background-color: var(--cor4); color: var(--cor1);}
+
+nav{background-color:var(--cor3); text-align: center;  padding: 5px;}
+nav>a{margin:20px; background-color: var(--cor4); border-radius: 20px; text-decoration: none; color:blue;}
+a:hover{color: black;}
+
+main{ }
+
+section{ }
+
+article{ }
+
+footer{text-align: center; background-color: var(--cor3); color:var(--cor1); }
+

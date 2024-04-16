@@ -13,7 +13,7 @@
 
     <header>
         <h2>DISPLAY IN LINE BLOCK - K</h2>
-        <h5>ALTERAÇÕES NO CSS DISPLAYINLINEBLOC</h5>
+        <h5>Alinhando Justificado</h5>
 
     </header>
 
@@ -24,7 +24,7 @@
         <a href="../../72inline/72inline.html" target="_self" rel="next">In Line</a>        
     </nav>
 
-    <nav style="background-color: burlywood;">
+    <nav style="background-color: rgb(196, 27, 55);">
         <a href="../72inlineblock.html" target="_self">Voltar</a>
         <a href="../72a/72a.html" target="_self">A</a>
         <a href="../72b/72b.html" target="_self">B</a>
@@ -55,7 +55,11 @@
     <section>
         <article>
             <h3>Observe que </h3>
-            <p>Lorem ipsum dolor ad praesentium ?</p><hr>
+            <p>Os três elementos estão align justify, mesmo display in line block não justificar elementos que não completam uma linha toda</p><hr>
+            <p>Abaixo dos elementos, tem um elemento invisivel inserido, com width 100% mas height 0%. Isso faz com que os três objetos se alinhem 
+                justificadamente mesmo não ocupando a linha toda.</p>
+                
+
         </article>
 
         <article>
@@ -72,9 +76,26 @@
 
         <article>
             <h3>Section B  - Article 2</h3>
-            <p>Lorem ipsum ni quos inventaboriosam fugiat deserunt est!</p><hr>
+            <p>        <article>
+                <h3>Section B  - Article 1</h3>
+                <p>O :after adiciona um elemento dentro da tag que informamos no seletor e esse elemento sempre será o último dentro desta tag. Por exemplo, no nosso código implementamos o :after assim: .example:after.
+                    A nossa <ul> é o elemento que tem a classe example, portanto será criado dentro da nossa <ul> um pseudo-element com o valor que está sendo atribuído na propriedade content. Esse pseudo-element será criado sempre como último elemento da <ul>.</p><hr>
+            </article></p><hr>
         </article>
+
+        <article>
+            <h3>Observação:</h3>
+            <p>Agora precisamos que esse último elemento que adicionamos com o :after, seja também a última linha. Bom, para fazermos isso, precisamos definir a largura dele como 100% (width: 100%) e por segurança deixá-lo com a altura zerada (height: 0). </p><hr>
+        </article>
+
+        <article>
+            <h3>Observação:</h3>
+            <p>Também precisamos alterar o display dele para inline-block porque o padrão dele é inline -- lembre-se que quando um elemento é display: inline nós não conseguimos definir largura (width) e nem altura (height) para ele. Bora colocar esse comportamento no nosso CSS (displayInlineBlock.css): </p><hr>
+        </article>
+
     </section>
+    <br>
+    <img src="../imgcss.PNG" alt="">
 
     </main>
 

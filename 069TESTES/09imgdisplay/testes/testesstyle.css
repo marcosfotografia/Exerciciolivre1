@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+h4{color:#554600 ;}
+
+body{background-color: #FFF0AA; }
+
+header{background-color: #806D15; color: #D4C26A; text-align: center;}
+
+nav{background-color:#D4C26A;text-align: center; margin: 25px;}
+nav>a{margin: 20px; background-color: #806D15; color: #D4C26A; border-radius: 20px;}
+
+main{ }
+
+section{ }
+
+artice{ }
+
+footer{background-color: #D4C26A;  width: 500px; text-align: center; }
+footer>p{text-align: center;color: aqua;display: inline-block;}
+footer>section{display: inline-block; text-align: center;}

@@ -1,9 +1,20 @@
 .example {
     color: #FFF;
+    text-align: justify;
 }
+
+.example::after{/*Adicionamos essse seletor */
+    content:  'A';
+    background-color: #FAA116;
+    display: inline-block; /* Adicionando essa linha, */
+    width: 100%; /* essa também */
+    height: 0; /* e essa foi a última */}
+    
+
     .example-item {
         width: 25%;
         height: 150px;
+        display: inline-block;
     }
     .example-item_first {
         background-color: #FAA116;
