@@ -2,7 +2,7 @@
 
 :root{--cor1:#D3F2C6; --cor2:#FFFFFF; --cor3:#B0E59A; --cor4:#459225; --cor5:#63B042;}
 
-.alinha{max-width: 30%; display: inline-block;}
+.alinha{display: inline-block;}
 
 body{background-color: var(--cor1); }
 
