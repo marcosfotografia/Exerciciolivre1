@@ -6,8 +6,8 @@
 
 .soinline{display: inline;}
 
-.alinha::after{/*Adicionamos essse seletor */
-    content:  '';
+.alinhar::after{/*Adicionamos essse seletor */
+    content:  'hh';
     display: inline-block; /* Adicionando essa linha, */
     width: 100%; /* essa também */
     height: 0; /* e essa foi a última */}

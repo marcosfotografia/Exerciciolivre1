@@ -2,6 +2,7 @@
 
 /* CORES */
 
+ul>li{list-style: none;} /*Elimina a marcação da UL */
 
 body{background-color: #FFEAA4; }
 
