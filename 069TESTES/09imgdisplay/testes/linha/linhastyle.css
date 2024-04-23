@@ -18,11 +18,12 @@ header{text-align: center; background-color: var(--cor4); color:var(--cor2) ; li
  
 
 nav{background-color:var(--cor3); text-align: center;  padding: 5px; display: inline-block; width:100%}
-nav>a{margin:20px; background-color: var(--cor4); border-radius: 20px; text-decoration: none; color:var(--cor2);}
+nav>a{margin:20px; background-color: var(--cor4); border-radius: 20px; text-decoration: none; 
+    color:var(--cor2); display: inline-block;}
 a:hover{color: black;}
 
-main{xmargin: 20px;  /*Espaço em volta da caixa do Main - Diminui o tamanho do box Main*/
-    xpadding: 20px;  /* Espaço em volta do texto  */ }
+main{margin: 20px;  /*Espaço em volta da caixa do Main - Diminui o tamanho do box Main*/
+    padding: 20px;  /* Espaço em volta do texto  */ }
 
 section{ }
 
