@@ -6,10 +6,10 @@ ul>li{list-style: none;} /*Elimina a marcação da UL */
 
 body{background-color: #FFEAA4; }
 
-header{text-align: center;  background-color:#64FF00 ;  line-height:1px; padding: 1px; }
+header{text-align: center;  background-color:#FFC300 ;  line-height:1px; padding: 1px; color: aliceblue; }
 
-nav{background-color:#C7002E;  text-align: center; }
-nav>a{margin-right: 20px; margin-left: 20px;}  /*Espaço entre os links*/
+nav{background-color:#ddaa04;  text-align: center; }
+nav>a{margin-right: 20px; margin-left: 20px; color: aliceblue;}  /*Espaço entre os links*/
 
 main{background-color:#FFC300 ;
 margin: 20px;  /*Espaço em volta da caixa do Main - Diminui o tamanho do box Main*/
