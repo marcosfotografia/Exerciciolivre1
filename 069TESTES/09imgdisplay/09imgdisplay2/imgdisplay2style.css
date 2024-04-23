@@ -13,7 +13,7 @@ nav>a{margin-right: 20px; margin-left: 20px;}  /*Espaço entre os links*/
 
 main{background-color:#FFC300 ;
 margin: 20px;  /*Espaço em volta da caixa do Main - Diminui o tamanho do box Main*/
-padding: 20px;  /* Espaço em volta do texto  */
+padding: 0px;  /* Espaço em volta do texto  */
 }
 
 section{ }
