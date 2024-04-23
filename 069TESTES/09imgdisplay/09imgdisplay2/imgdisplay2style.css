@@ -19,7 +19,7 @@ padding: 20px;  /* Espaço em volta do texto  */
 section{ }
 
 article{ }
-article>p{text-indent: 30px;}   /* dois dedos */
+Xarticle>p{text-indent: 30px;}   /* dois dedos */
 
 footer{background-color:#ADA117 ; text-align: center;}
 
